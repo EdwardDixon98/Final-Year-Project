@@ -1801,15 +1801,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "cloud4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "cloud4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "cloud5.png",
         "kind": "image",
         "metadata": "",
@@ -8236,6 +8227,24 @@
         "name": "NewObject2-1-2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "cloud4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cloud4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13035,6 +13044,347 @@
                       }
                     ]
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Checkpoint3",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.02500000037252903,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Moving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.058800000697374344,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_14.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_15.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_16.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Checkpoint 2_Moving_17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -25088,7 +25438,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4199999999999997,
+        "zoomFactor": 0.3999999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25826,44 +26176,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "right",
-          "persistentUuid": "ef6c5604-20bd-4895-bf36-342aed4ea585",
-          "width": 0,
-          "x": 2802,
-          "y": 447,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "left",
           "persistentUuid": "8a69591b-a197-4cea-920a-7b591a519227",
           "width": 0,
-          "x": 3033,
-          "y": 452,
+          "x": 2809,
+          "y": 450,
           "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "right",
-          "persistentUuid": "1cd48426-a6e8-4df8-b892-92b4d94d05a1",
-          "width": 0,
-          "x": 3145,
-          "y": 451,
-          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25877,25 +26195,9 @@
           "name": "left",
           "persistentUuid": "b097938f-c0fc-4bdf-92fd-45583c5c468f",
           "width": 0,
-          "x": 3350,
-          "y": 463,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "right",
-          "persistentUuid": "d4ffced9-4cfb-461e-882b-e5de3f4ea5ec",
-          "width": 0,
-          "x": 3438,
+          "x": 3146,
           "y": 455,
-          "zOrder": 53,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25909,8 +26211,8 @@
           "name": "left",
           "persistentUuid": "f9100c2c-99d7-48ea-b521-d03a688a9083",
           "width": 0,
-          "x": 3658,
-          "y": 462,
+          "x": 3420,
+          "y": 447,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -25925,8 +26227,8 @@
           "name": "EnemyRadar",
           "persistentUuid": "4d6e7ba2-6d89-419e-b922-e207a094fc64",
           "width": 0,
-          "x": 3452,
-          "y": 470,
+          "x": 3456,
+          "y": 479.5,
           "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
@@ -25989,9 +26291,9 @@
           "name": "BossCircle",
           "persistentUuid": "0b39e35b-3b3a-49d9-a2a7-de182f3a1f1f",
           "width": 800,
-          "x": 3679,
-          "y": 141,
-          "zOrder": 60,
+          "x": 3682,
+          "y": 83,
+          "zOrder": 59,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26005,7 +26307,7 @@
           "name": "left",
           "persistentUuid": "d0998870-e3d9-4564-9a1f-f1f196850a5b",
           "width": 0,
-          "x": 4303,
+          "x": 4115,
           "y": 443,
           "zOrder": 61,
           "numberProperties": [],
@@ -26021,9 +26323,153 @@
           "name": "right",
           "persistentUuid": "c2f195ad-bdbe-4398-a8d3-bda038df063b",
           "width": 0,
-          "x": 3771,
-          "y": 459,
+          "x": 3557,
+          "y": 444,
           "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 61,
+          "layer": "",
+          "locked": false,
+          "name": "Bat",
+          "persistentUuid": "b6da7100-45de-41df-a480-e27ff7944846",
+          "width": 80,
+          "x": 2549,
+          "y": 170,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "left",
+          "persistentUuid": "f63151c5-a054-4969-888a-0e694e885778",
+          "width": 0,
+          "x": 3083,
+          "y": 171,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "right",
+          "persistentUuid": "32d9af98-ed41-4134-ba91-6d1ed638d864",
+          "width": 0,
+          "x": 2418,
+          "y": 159,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 543,
+          "layer": "",
+          "locked": false,
+          "name": "circle_collision",
+          "persistentUuid": "73d29ed9-0e45-4b00-b8e3-2505cb743c6b",
+          "width": 597,
+          "x": 2600.15625,
+          "y": 192.078125,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 51,
+          "layer": "",
+          "locked": false,
+          "name": "SkeletonForrest",
+          "persistentUuid": "c9fa7789-3398-4586-8afb-192775116886",
+          "width": 201,
+          "x": 2432,
+          "y": 378,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Checkpoint3",
+          "persistentUuid": "7c329a1b-5a17-49dc-9c5b-a980d5d531c2",
+          "width": 0,
+          "x": 2089,
+          "y": 449,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DarkClouds",
+          "persistentUuid": "2a5a651a-6af1-40ce-bb55-a03831a9b2d8",
+          "width": 0,
+          "x": 4086,
+          "y": 156,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DarkClouds",
+          "persistentUuid": "12de212b-115b-4647-87c4-409c2a9b338f",
+          "width": 0,
+          "x": 3833,
+          "y": 166,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "DarkClouds",
+          "persistentUuid": "47944095-111a-4a5e-bdbf-e4f8baa979cd",
+          "width": 0,
+          "x": 4313,
+          "y": 165,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29222,6 +29668,93 @@
               ]
             }
           ]
+        },
+        {
+          "bold": true,
+          "italic": true,
+          "name": "SkeletonForrest",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Kill All Enemies, to reach the BOSS",
+          "font": "IMMORTAL.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "DarkClouds",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "cloud3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cloud3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "cloud4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewObject2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
@@ -29255,16 +29788,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "SuperJump"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -29395,6 +29918,16 @@
               },
               "parameters": [
                 "BossCircle"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "SkeletonForrest"
               ],
               "subInstructions": []
             }
@@ -30274,6 +30807,108 @@
           ]
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Checkpoint3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckpointX",
+                "=",
+                "Checkpoint3.X()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CheckpointY",
+                "=",
+                "Checkpoint3.Y()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Checkpoint3",
+                "\"Moving\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "SkeletonForrest",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "SkeletonForrest",
+                    "FairyOption1",
+                    "0",
+                    "90"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -30463,41 +31098,6 @@
           "events": []
         },
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "updown",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "SuperJump",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -30547,7 +31147,7 @@
               "parameters": [
                 "",
                 "Skeleton",
-                "2523",
+                "grave1.X()",
                 "470",
                 ""
               ],
@@ -30685,7 +31285,7 @@
               "parameters": [
                 "",
                 "Skeleton",
-                "2836",
+                "grave2.X()",
                 "470",
                 ""
               ],
@@ -30713,6 +31313,16 @@
                 "2836",
                 "470",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "EnemyRadar"
               ],
               "subInstructions": []
             }
@@ -30813,7 +31423,7 @@
               "parameters": [
                 "",
                 "Skeleton",
-                "3149",
+                "grave3.X()",
                 "470",
                 ""
               ],
@@ -30841,6 +31451,16 @@
                 "3149",
                 "470",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "EnemyRadar"
               ],
               "subInstructions": []
             }
@@ -30941,7 +31561,7 @@
               "parameters": [
                 "",
                 "Skeleton",
-                "3438\n",
+                "grave4.X()",
                 "470",
                 ""
               ],
@@ -30969,6 +31589,16 @@
                 "3438",
                 "470",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "EnemyRadar"
               ],
               "subInstructions": []
             }
@@ -31069,8 +31699,8 @@
               "parameters": [
                 "",
                 "Boss1",
-                "4087",
-                "467",
+                "BossGrave.X()",
+                "470",
                 ""
               ],
               "subInstructions": []
@@ -31469,7 +32099,7 @@
               "parameters": [
                 "Boss1",
                 "Player",
-                "60",
+                "60\n",
                 ""
               ],
               "subInstructions": []
@@ -31505,7 +32135,7 @@
               "parameters": [
                 "Boss1",
                 "180",
-                "50",
+                "60",
                 ""
               ],
               "subInstructions": []
@@ -31790,7 +32420,7 @@
               "parameters": [
                 "Score",
                 "+",
-                "2"
+                "10"
               ],
               "subInstructions": []
             },
@@ -31866,33 +32496,33 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AddForceVers"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    "Player",
-                    "60",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "Boss1",
+                "Player.X()",
+                "Player.Y()",
+                "60",
+                ""
               ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -32072,7 +32702,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Demons",
+          "name": "Demons /Skeletons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
