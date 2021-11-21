@@ -8245,6 +8245,237 @@
         "name": "cloud4.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Bringer-of-Death_Spell_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bringer-of-Death_Spell_16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Spikes_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor Spikes_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor Spikes_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Spikes_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor Spikes_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor Spikes_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Spikes_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor Spikes_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor Spikes_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Spikes_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor Spikes_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/16x16 Dungeon Tileset/Floor/Floor Spikes_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/High spikes.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "High spikes.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Abstract Platformer Pack (370 assets)/PNG/Other/High spikes.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mayan Pyramid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mayan Pyramid.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Generic Backgrounds/Background Objects/Retina/Mayan Pyramid.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mayan Pyramid.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mayan Pyramid.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14919,9 +15150,9 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
         },
@@ -25438,13 +25669,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.27999999999999964,
+        "zoomFactor": 0.15999999999999945,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
         {
           "name": "Shield",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "hp",
           "type": "string",
           "value": ""
         }
@@ -25458,7 +25694,7 @@
           "locked": false,
           "name": "Ground",
           "persistentUuid": "dfb58af8-d5fa-4f3a-b584-9d9aaf2afe6e",
-          "width": 4752,
+          "width": 4965,
           "x": -279,
           "y": 512,
           "zOrder": 2,
@@ -25474,7 +25710,7 @@
           "locked": false,
           "name": "Level2GB",
           "persistentUuid": "52615bac-3dee-4be0-a55e-beed86983110",
-          "width": 5314,
+          "width": 7490,
           "x": -552,
           "y": -151,
           "zOrder": 1,
@@ -26435,8 +26671,8 @@
           "name": "DarkClouds",
           "persistentUuid": "2a5a651a-6af1-40ce-bb55-a03831a9b2d8",
           "width": 0,
-          "x": 4086,
-          "y": 156,
+          "x": 4036,
+          "y": 128,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -26451,8 +26687,8 @@
           "name": "DarkClouds",
           "persistentUuid": "12de212b-115b-4647-87c4-409c2a9b338f",
           "width": 0,
-          "x": 3833,
-          "y": 166,
+          "x": 3776,
+          "y": 140,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -26467,9 +26703,361 @@
           "name": "DarkClouds",
           "persistentUuid": "47944095-111a-4a5e-bdbf-e4f8baa979cd",
           "width": 0,
-          "x": 4313,
-          "y": 165,
+          "x": 4289,
+          "y": 132,
           "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 117,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "ab1703e7-d1b5-4747-9f91-ff26102b1d9a",
+          "width": 168,
+          "x": 2599,
+          "y": 393,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 117,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "36ce6afe-d92a-4f3f-8e70-d3bdd68c53e0",
+          "width": 168,
+          "x": 2918,
+          "y": 395,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 117,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "5ecb4712-faa4-4bb0-98fc-b61916701cd8",
+          "width": 168,
+          "x": 3249,
+          "y": 393,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 117,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "548cc829-1993-4265-900a-dc88a6e65a14",
+          "width": 168,
+          "x": 3642,
+          "y": 393,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "84ec6789-7bfd-455b-8e54-d8ff66f23489",
+          "width": 137,
+          "x": 4686,
+          "y": 511,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "2875f68b-f090-417c-8224-0e74f9f3f85d",
+          "width": 137,
+          "x": 4823,
+          "y": 498,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "3a5ae758-95b8-499d-aebc-c3c6ef9a3be4",
+          "width": 137,
+          "x": 4960,
+          "y": 486,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "2198bbc4-073d-4c95-a9d7-8145d6135b67",
+          "width": 137,
+          "x": 5097,
+          "y": 470,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "72de57ea-c8ae-4c13-b84b-995f926fecc5",
+          "width": 137,
+          "x": 5305,
+          "y": 470,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "71713227-0b49-4965-8fcd-02cd1d33e946",
+          "width": 0,
+          "x": 5237,
+          "y": 464,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "e3aa8229-3e78-4486-93f8-8f6d1af2d184",
+          "width": 137,
+          "x": 5523,
+          "y": 470,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "35253f89-1917-47a2-aa42-1db11b850d03",
+          "width": 0,
+          "x": 5448,
+          "y": 464,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "84655aef-17d7-482d-bff4-0ab422fcf1b1",
+          "width": 0,
+          "x": 5671,
+          "y": 464,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "e1f424d9-6e58-4458-b5c7-8377b3fd6f52",
+          "width": 137,
+          "x": 5752,
+          "y": 470,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "51723d49-2f41-4cce-8137-45bf05a6807d",
+          "width": 137,
+          "x": 5895,
+          "y": 486,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "43396d45-e218-4710-b72d-3bc0352bed7c",
+          "width": 137,
+          "x": 6036,
+          "y": 498,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 65,
+          "layer": "",
+          "locked": false,
+          "name": "Imp",
+          "persistentUuid": "c20c8b17-701c-4af3-8393-d5ce81b18f64",
+          "width": 78,
+          "x": 5963.10791015625,
+          "y": 461.49432373046875,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "left",
+          "persistentUuid": "bfda4103-0085-4739-8bb6-abd0077b538d",
+          "width": 0,
+          "x": 6371,
+          "y": 448,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "right",
+          "persistentUuid": "0c89dfad-e31a-4a7a-a908-8ab81456c8db",
+          "width": 0,
+          "x": 5783,
+          "y": 410,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 23,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "27787bd1-75e4-4873-b11f-590e35707d56",
+          "width": 137,
+          "x": 6169,
+          "y": 517,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 75,
+          "layer": "",
+          "locked": false,
+          "name": "Ground",
+          "persistentUuid": "aec8d9dc-c405-4e03-bb5d-1d530e83d0c3",
+          "width": 634,
+          "x": 6306,
+          "y": 514,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "MayanPyramid",
+          "persistentUuid": "58928710-a6f2-4284-88a1-c074ee3c6f4b",
+          "width": 0,
+          "x": 6699,
+          "y": 362,
+          "zOrder": 80,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -29755,6 +30343,803 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "name": "NextLevel",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bringer-of-Death_Spell_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 52,
+                            "y": 39
+                          },
+                          {
+                            "x": 86,
+                            "y": 34
+                          },
+                          {
+                            "x": 83,
+                            "y": 93
+                          },
+                          {
+                            "x": 49,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FloorSpikes",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Floor Spikes_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Floor Spikes_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Floor Spikes_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Floor Spikes_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HighSpikes",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "High spikes.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MayanPyramid",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "MayanPyramid",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.02500000037252903,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Mayan Pyramid.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 181,
+                        "y": 146
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 180,
+                        "y": 146
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 148,
+                            "y": 0
+                          },
+                          {
+                            "x": 246,
+                            "y": 0
+                          },
+                          {
+                            "x": 408,
+                            "y": 295
+                          },
+                          {
+                            "x": 1,
+                            "y": 296
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -31098,6 +32483,71 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "HighSpikes",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "-",
+                    "20"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "HighSpikes",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -32432,6 +33882,16 @@
               "parameters": [
                 "Boss1",
                 "\"Dead\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Boss1"
               ],
               "subInstructions": []
             }
@@ -34363,6 +35823,80 @@
               "events": []
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "ENd of Level",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "MayanPyramid",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level3\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -34816,8 +36350,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "New_32scene",
-      "name": "New scene",
+      "mangledName": "Level3",
+      "name": "Level3",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
