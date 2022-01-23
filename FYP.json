@@ -10203,9 +10203,14 @@
           "value": false
         },
         {
-          "name": "Invincibility",
+          "name": "SuperJump",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Checkpoint",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -10233,9 +10238,9 @@
           "CooldownActive": false
         },
         {
-          "gravity": 1300,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 1300,
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "deceleration": 1500,
@@ -16668,6 +16673,8 @@
           "CooldownActive": false
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -16678,9 +16685,7 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
-          "rotateObject": false,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "rotateObject": false
         }
       ],
       "animations": [
@@ -40630,6 +40635,30 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Shield",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Shield",
+                "+",
+                "100"
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -40639,30 +40668,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Shield",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "+",
-                    "100"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -43786,11 +43791,22 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4999999999999999,
+        "zoomFactor": 0.7000000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "CheckpointX",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "CheckpointY",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -43816,8 +43832,8 @@
           "locked": false,
           "name": "NewMap1",
           "persistentUuid": "ccb7faf5-906d-44f1-ad3b-d5d1b6f2aa4f",
-          "width": 3594,
-          "x": -22,
+          "width": 4469,
+          "x": -9,
           "y": 392,
           "zOrder": 3,
           "numberProperties": [],
@@ -43832,7 +43848,7 @@
           "locked": false,
           "name": "Background3",
           "persistentUuid": "bf4c13b9-dc10-49ac-b095-759149e5bacc",
-          "width": 3700,
+          "width": 4584,
           "x": -129,
           "y": -40,
           "zOrder": 1,
@@ -43880,8 +43896,8 @@
           "locked": false,
           "name": "Floor3",
           "persistentUuid": "3315c4f2-cd01-48b5-a616-344223bac07d",
-          "width": 105,
-          "x": -13,
+          "width": 107,
+          "x": -15,
           "y": 486,
           "zOrder": 8,
           "numberProperties": [],
@@ -44323,14 +44339,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 39,
+          "height": 36,
           "layer": "",
           "locked": false,
           "name": "Wall",
           "persistentUuid": "9ec1979a-a85b-4a40-b381-3548e6da7ae5",
-          "width": 1743,
+          "width": 2630,
           "x": 1827,
-          "y": 500,
+          "y": 503,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -44408,7 +44424,7 @@
           "locked": false,
           "name": "DamagedWall",
           "persistentUuid": "e4b2dc22-7645-4af9-b5f7-a1646ee62991",
-          "width": 1742,
+          "width": 2630,
           "x": 1827,
           "y": 514,
           "zOrder": 26,
@@ -44697,7 +44713,7 @@
           "name": "soulfragments",
           "persistentUuid": "ce89e98b-755b-4262-8f6b-1d83382b02bb",
           "width": 75,
-          "x": 2660,
+          "x": 2633,
           "y": 742,
           "zOrder": 36,
           "numberProperties": [],
@@ -44836,22 +44852,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "left",
-          "persistentUuid": "872df5da-1836-431e-8980-2a2fa264798d",
-          "width": 0,
-          "x": 770,
-          "y": 457,
-          "zOrder": 83,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "UI",
           "locked": false,
           "name": "HP",
@@ -44914,31 +44914,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "right",
-          "persistentUuid": "1a613224-b845-494f-9449-ae377f8795f0",
-          "width": 0,
-          "x": 218,
-          "y": 452,
-          "zOrder": 88,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 72.5,
           "layer": "",
           "locked": false,
           "name": "PlayerOrientationLeft",
           "persistentUuid": "4d0c7a7a-86d5-410c-87b0-3b371a663e95",
-          "width": 0,
-          "x": 39,
-          "y": 471,
+          "width": 85,
+          "x": 28.171875,
+          "y": 466.81640625,
           "zOrder": 89,
           "numberProperties": [],
           "stringProperties": [],
@@ -44946,15 +44930,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 65.5,
           "layer": "",
           "locked": false,
           "name": "PlayerOrientationRight",
           "persistentUuid": "843c6652-df0a-4d61-97a3-e24b35a0b59c",
-          "width": 0,
-          "x": 127,
-          "y": 465,
+          "width": 89,
+          "x": 139.109375,
+          "y": 464.21484375,
           "zOrder": 90,
           "numberProperties": [],
           "stringProperties": [],
@@ -45081,8 +45065,8 @@
           "name": "undergroundmonster",
           "persistentUuid": "96345682-9f3c-432e-99a6-5cea584fb38a",
           "width": 119,
-          "x": 2757.853759765625,
-          "y": 739.9014892578125,
+          "x": 2845.853759765625,
+          "y": 744.9014892578125,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -45145,8 +45129,8 @@
           "name": "DemonBoss",
           "persistentUuid": "8ed1230b-4399-4140-af0e-ccbacf009568",
           "width": 152,
-          "x": 2274.47998046875,
-          "y": 447.796875,
+          "x": 2546.47998046875,
+          "y": 442.796875,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -45161,8 +45145,8 @@
           "name": "DemonBoss",
           "persistentUuid": "6ab6f1ab-97b5-46f7-8b86-800d7cd413cb",
           "width": 152,
-          "x": 2792.47998046875,
-          "y": 449.796875,
+          "x": 3010.47998046875,
+          "y": 446.796875,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -45180,6 +45164,118 @@
           "x": 3096,
           "y": 559,
           "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128.5,
+          "layer": "",
+          "locked": false,
+          "name": "DemonBoss",
+          "persistentUuid": "5a64e9fa-97f3-4e4b-811c-af67a1cdb68c",
+          "width": 152,
+          "x": 3601.47998046875,
+          "y": 450.296875,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "df2ceba2-6413-4371-a47c-9b4b027cd816",
+          "width": 0,
+          "x": 3918,
+          "y": 472,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "113ceabf-324d-4a4d-a079-e8d0588e6949",
+          "width": 0,
+          "x": 3385,
+          "y": 474,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "04ec5b75-3e29-4d9a-b96e-26b79598c900",
+          "width": 0,
+          "x": 2835,
+          "y": 473,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BlueOrb",
+          "persistentUuid": "03bceb84-24bd-44d0-8017-e67e13a91a13",
+          "width": 0,
+          "x": 1013,
+          "y": 467,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "left",
+          "persistentUuid": "64c613fc-1cef-4dbe-a9d2-8cd8616c40a2",
+          "width": 0,
+          "x": 926,
+          "y": 454,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "right",
+          "persistentUuid": "c7cc8b12-0b61-4b63-9425-83140181b058",
+          "width": 0,
+          "x": 223,
+          "y": 444,
+          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -46256,6 +46352,8 @@
               "CooldownActive": false
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -46266,9 +46364,7 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
-              "rotateObject": false,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "rotateObject": false
             },
             {
               "name": "PlatformerObject",
@@ -47429,8 +47525,8 @@
               },
               "parameters": [
                 "HP",
-                "+",
-                "100"
+                "=",
+                "Player.Health::Health()"
               ],
               "subInstructions": []
             },
@@ -47592,7 +47688,7 @@
               "parameters": [
                 "hp",
                 "=",
-                "0"
+                "Player.Health::Health()"
               ],
               "subInstructions": []
             }
@@ -47631,48 +47727,75 @@
               },
               "parameters": [
                 "HP",
-                "=",
-                "0"
+                "+",
+                "100"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::SetHealth"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "100",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "+",
-                    "100"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::SetHealth"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Checkpoint",
+                "=",
+                "1"
               ],
-              "events": []
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Checkpoint2.X()",
+                "=",
+                "Checkpoint2.Y() - (Player.Height() - Checkpoint2.Height())"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -47716,7 +47839,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "Power Ups/Checkpoints",
+          "name": "Power Ups/Checkpoints/objects",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -47739,6 +47862,14 @@
                 "",
                 ""
               ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -47780,32 +47911,76 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "GreenOrb",
+                "\"SuperJump\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "500"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "SuperJump",
+                "True"
+              ],
+              "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlatformBehavior::Gravity"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject",
-                    "=",
-                    "500"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "GreenOrb",
+                "\"NoShadow\""
               ],
-              "events": []
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "BlueOrb",
+                "\"NoShadow\""
+              ],
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -47819,7 +47994,7 @@
               },
               "parameters": [
                 "Player",
-                "Checkpoint2",
+                "BlueOrb",
                 "",
                 "",
                 ""
@@ -47831,12 +48006,50 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
+                "value": "Flash::Flash::Flash"
               },
               "parameters": [
-                "CheckpointX",
-                "=",
-                "Checkpoint2.X()"
+                "Player",
+                "Flash",
+                "3",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "salamisound-3603409-sfx-power-up-30-games.mp3",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "BlueOrb",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Shield",
+                "True"
               ],
               "subInstructions": []
             },
@@ -47846,62 +48059,238 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "CheckpointY",
-                "=",
-                "Checkpoint2.Y()"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Checkpoint2",
-                "\"Moving\""
+                "Shield",
+                "+",
+                "100"
               ],
               "subInstructions": []
             }
           ],
-          "events": [
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Shield",
+                "=",
+                "0"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Player",
-                    "=",
-                    "Checkpoint2.X()",
-                    "=",
-                    "Checkpoint2.Y() - (Player.Height() - Checkpoint2.Height())"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Shield",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "GreenOrb",
+                "\"SuperJump\"",
+                ">=",
+                "15"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlatformBehavior::Gravity"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "1300"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "SuperJump",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Checkpoint",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Checkpoint2.X()",
+                "=",
+                "Checkpoint2.Y() - (Player.Height() - Checkpoint2.Height())"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "MagicScroll4",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1845",
+                "=",
+                "404"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Water",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                "10",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Checkpoint2.X()",
+                "=",
+                "Checkpoint2.Y() - (Player.Height() - Checkpoint2.Height())"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "colorB": 228,
@@ -48039,7 +48428,7 @@
               },
               "parameters": [
                 "Goblin",
-                "no"
+                "yes"
               ],
               "subInstructions": []
             }
@@ -48158,7 +48547,7 @@
               },
               "parameters": [
                 "Goblin",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             }
@@ -48248,7 +48637,7 @@
                 "value": "EstTourne"
               },
               "parameters": [
-                "Goblin",
+                "Player",
                 "Player",
                 "90",
                 ""
@@ -48546,7 +48935,7 @@
                   },
                   "parameters": [
                     "Shield",
-                    "=",
+                    "<=",
                     "0"
                   ],
                   "subInstructions": []
@@ -48560,8 +48949,8 @@
                   },
                   "parameters": [
                     "HP",
-                    "-",
-                    "10"
+                    "=",
+                    "Player.Health::Health()"
                   ],
                   "subInstructions": []
                 },
@@ -49238,18 +49627,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "HP",
-                "-",
-                "5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySound"
               },
               "parameters": [
@@ -49258,6 +49635,18 @@
                 "",
                 "100",
                 "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "HP",
+                "=",
+                "Player.Health::Health()"
               ],
               "subInstructions": []
             }
@@ -49275,7 +49664,7 @@
                   },
                   "parameters": [
                     "Shield",
-                    "=",
+                    "<=",
                     "0"
                   ],
                   "subInstructions": []
@@ -49304,6 +49693,18 @@
                     "Health",
                     "5",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Shield",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -49570,7 +49971,7 @@
               },
               "parameters": [
                 "undergroundmonster",
-                "no"
+                "yes"
               ],
               "subInstructions": []
             },
@@ -49667,7 +50068,7 @@
               },
               "parameters": [
                 "undergroundmonster",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             },
@@ -49825,6 +50226,16 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Visible"
+              },
+              "parameters": [
+                "undergroundmonster"
               ],
               "subInstructions": []
             }
@@ -50042,25 +50453,13 @@
                   },
                   "parameters": [
                     "Shield",
-                    "=",
+                    "<=",
                     "0"
                   ],
                   "subInstructions": []
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "-",
-                    "10"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -50071,6 +50470,18 @@
                     "Health",
                     "10",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "=",
+                    "Player.Health::Health()"
                   ],
                   "subInstructions": []
                 }
