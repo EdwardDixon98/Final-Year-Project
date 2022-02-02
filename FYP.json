@@ -10171,6 +10171,105 @@
         "name": "Idle9.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_33.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_43.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_53.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_63.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMasterDoor_Close_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMasterDoor_Close_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMasterDoor_Close_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMasterDoor_Close_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMasterDoor_Close_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMasterDoor_Close_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMasterDoor_Close_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMasterDoor_Close_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DungeonMasterDoor_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DungeonMasterDoor_Open.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -10211,6 +10310,11 @@
           "name": "Checkpoint",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "HP",
+          "type": "number",
+          "value": 100
         }
       ],
       "effects": [],
@@ -19252,8 +19356,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 30,
+                    "y": 14.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -20377,7 +20481,7 @@
       "updateIfNotVisible": false,
       "variables": [
         {
-          "name": "Direction",
+          "name": "direction",
           "type": "string",
           "value": "right"
         }
@@ -20915,10 +21019,10 @@
                     "y": 48.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 51,
+                    "y": 47.5
                   },
                   "customCollisionMask": [
                     [
@@ -20951,10 +21055,10 @@
                     "y": 48.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 51,
+                    "y": 47.5
                   },
                   "customCollisionMask": [
                     [
@@ -20987,10 +21091,10 @@
                     "y": 48.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 51,
+                    "y": 47.5
                   },
                   "customCollisionMask": [
                     [
@@ -21023,10 +21127,10 @@
                     "y": 48.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 51,
+                    "y": 47.5
                   },
                   "customCollisionMask": [
                     [
@@ -21087,12 +21191,12 @@
                         "y": 33.5
                       },
                       {
-                        "x": 63,
-                        "y": 77.5
+                        "x": 68,
+                        "y": 73.5
                       },
                       {
-                        "x": 29,
-                        "y": 78.5
+                        "x": 35,
+                        "y": 72.5
                       }
                     ]
                   ]
@@ -21123,12 +21227,12 @@
                         "y": 33.5
                       },
                       {
-                        "x": 63,
-                        "y": 77.5
+                        "x": 68,
+                        "y": 73.5
                       },
                       {
-                        "x": 29,
-                        "y": 78.5
+                        "x": 35,
+                        "y": 72.5
                       }
                     ]
                   ]
@@ -21159,12 +21263,240 @@
                         "y": 33.5
                       },
                       {
-                        "x": 63,
-                        "y": 77.5
+                        "x": 68,
+                        "y": 73.5
                       },
                       {
-                        "x": 29,
-                        "y": 78.5
+                        "x": 35,
+                        "y": 72.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ready_13.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 47,
+                    "y": 51.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 48.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 75.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ready_23.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 47,
+                    "y": 51.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 48.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 75.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ready_33.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 47,
+                    "y": 51.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 48.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 75.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ready_43.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 47,
+                    "y": 51.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 48.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 75.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ready_53.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 47,
+                    "y": 51.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 48.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 75.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ready_63.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 47,
+                    "y": 51.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 48.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 75.5
                       }
                     ]
                   ]
@@ -28526,8 +28858,8 @@
               },
               "parameters": [
                 "HP",
-                "-",
-                "20"
+                "=",
+                "Player.Health::Health()"
               ],
               "subInstructions": []
             },
@@ -29077,18 +29409,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "-",
-                    "5"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -29110,6 +29430,18 @@
                     "Health",
                     "5",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "=",
+                    "Player.Health::Health()"
                   ],
                   "subInstructions": []
                 }
@@ -29244,18 +29576,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "+",
-                    "100"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Health::Health::SetHealth"
                   },
                   "parameters": [
@@ -29263,6 +29583,18 @@
                     "Health",
                     "100\n",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "=",
+                    "Player.Health::Health()"
                   ],
                   "subInstructions": []
                 }
@@ -30361,18 +30693,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "HP",
-                "-",
-                "5"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySound"
               },
               "parameters": [
@@ -30394,6 +30714,18 @@
                 "Health",
                 "5",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "HP",
+                "=",
+                "Player.Health::Health()"
               ],
               "subInstructions": []
             }
@@ -31440,18 +31772,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "-",
-                    "15"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -31459,6 +31779,18 @@
                     "Health",
                     "15",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "=",
+                    "Player.Health::Health()"
                   ],
                   "subInstructions": []
                 }
@@ -43791,8 +44123,8 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7000000000000002,
-        "windowMask": false
+        "zoomFactor": 0.30000000000000016,
+        "windowMask": true
       },
       "objectsGroups": [],
       "variables": [
@@ -43805,6 +44137,11 @@
           "name": "CheckpointY",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "HP",
+          "type": "string",
+          "value": "100"
         }
       ],
       "instances": [
@@ -43832,9 +44169,9 @@
           "locked": false,
           "name": "NewMap1",
           "persistentUuid": "ccb7faf5-906d-44f1-ad3b-d5d1b6f2aa4f",
-          "width": 4469,
+          "width": 5499,
           "x": -9,
-          "y": 392,
+          "y": 394,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -43848,7 +44185,7 @@
           "locked": false,
           "name": "Background3",
           "persistentUuid": "bf4c13b9-dc10-49ac-b095-759149e5bacc",
-          "width": 4584,
+          "width": 5622,
           "x": -129,
           "y": -40,
           "zOrder": 1,
@@ -43859,14 +44196,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 221,
+          "height": 189,
           "layer": "",
           "locked": false,
           "name": "Clouds",
           "persistentUuid": "a98cf1a2-4cf9-4519-914a-3a1121ed7272",
-          "width": 2152,
+          "width": 5643,
           "x": -133,
-          "y": 82,
+          "y": 114,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -43897,8 +44234,8 @@
           "name": "Floor3",
           "persistentUuid": "3315c4f2-cd01-48b5-a616-344223bac07d",
           "width": 107,
-          "x": -15,
-          "y": 486,
+          "x": -147,
+          "y": 488,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44344,7 +44681,7 @@
           "locked": false,
           "name": "Wall",
           "persistentUuid": "9ec1979a-a85b-4a40-b381-3548e6da7ae5",
-          "width": 2630,
+          "width": 3665,
           "x": 1827,
           "y": 503,
           "zOrder": 21,
@@ -44424,7 +44761,7 @@
           "locked": false,
           "name": "DamagedWall",
           "persistentUuid": "e4b2dc22-7645-4af9-b5f7-a1646ee62991",
-          "width": 2630,
+          "width": 3667,
           "x": 1827,
           "y": 514,
           "zOrder": 26,
@@ -44953,8 +45290,8 @@
           "name": "Goblin",
           "persistentUuid": "3c4c5d20-5835-49ee-b3ad-d9545cd11cb0",
           "width": 0,
-          "x": 2542,
-          "y": 783.5,
+          "x": 2501,
+          "y": 797.5,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -45059,22 +45396,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 101,
-          "layer": "",
-          "locked": false,
-          "name": "undergroundmonster",
-          "persistentUuid": "96345682-9f3c-432e-99a6-5cea584fb38a",
-          "width": 119,
-          "x": 2845.853759765625,
-          "y": 744.9014892578125,
-          "zOrder": 96,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 95,
           "layer": "",
           "locked": false,
@@ -45127,26 +45448,10 @@
           "layer": "",
           "locked": false,
           "name": "DemonBoss",
-          "persistentUuid": "8ed1230b-4399-4140-af0e-ccbacf009568",
-          "width": 152,
-          "x": 2546.47998046875,
-          "y": 442.796875,
-          "zOrder": 98,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 128.5,
-          "layer": "",
-          "locked": false,
-          "name": "DemonBoss",
           "persistentUuid": "6ab6f1ab-97b5-46f7-8b86-800d7cd413cb",
           "width": 152,
-          "x": 3010.47998046875,
-          "y": 446.796875,
+          "x": 4592.47998046875,
+          "y": 449.796875,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -45177,8 +45482,8 @@
           "name": "DemonBoss",
           "persistentUuid": "5a64e9fa-97f3-4e4b-811c-af67a1cdb68c",
           "width": 152,
-          "x": 3601.47998046875,
-          "y": 450.296875,
+          "x": 4211.47998046875,
+          "y": 449.796875,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -45193,8 +45498,8 @@
           "name": "HighSpikes",
           "persistentUuid": "df2ceba2-6413-4371-a47c-9b4b027cd816",
           "width": 0,
-          "x": 3918,
-          "y": 472,
+          "x": 3919,
+          "y": 487.5,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -45209,8 +45514,8 @@
           "name": "HighSpikes",
           "persistentUuid": "113ceabf-324d-4a4d-a079-e8d0588e6949",
           "width": 0,
-          "x": 3385,
-          "y": 474,
+          "x": 3393,
+          "y": 485.5,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -45225,8 +45530,8 @@
           "name": "HighSpikes",
           "persistentUuid": "04ec5b75-3e29-4d9a-b96e-26b79598c900",
           "width": 0,
-          "x": 2835,
-          "y": 473,
+          "x": 2841,
+          "y": 485.5,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -45241,8 +45546,8 @@
           "name": "BlueOrb",
           "persistentUuid": "03bceb84-24bd-44d0-8017-e67e13a91a13",
           "width": 0,
-          "x": 1013,
-          "y": 467,
+          "x": 1023,
+          "y": 462,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -45276,6 +45581,582 @@
           "x": 223,
           "y": 444,
           "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 127,
+          "layer": "",
+          "locked": false,
+          "name": "DemonBoss",
+          "persistentUuid": "5b763415-56b7-465a-be19-25cce8674c5d",
+          "width": 153.00001525878906,
+          "x": 3565.969970703125,
+          "y": 454.40625,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "BlueOrb",
+          "persistentUuid": "dcdaec30-9016-43fe-9579-417f6b56ecb7",
+          "width": 0,
+          "x": 1991,
+          "y": 454,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "9803c3ba-f29d-44d4-bab4-140d10c06289",
+          "width": 139,
+          "x": 2116,
+          "y": 406,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "3711fd9f-238c-4fd3-a83f-7812d1726b86",
+          "width": 139,
+          "x": 2309,
+          "y": 411,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "964c4edb-e34a-4031-b705-88f9e83494da",
+          "width": 139,
+          "x": 3084,
+          "y": 409,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Floor3v2",
+          "persistentUuid": "b1df5998-2071-475d-8367-75c61026eaad",
+          "width": 0,
+          "x": 58.5,
+          "y": 545,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Floor3v2",
+          "persistentUuid": "d3e987c1-657d-4d59-beb6-c1c6f2e549f3",
+          "width": 0,
+          "x": -4.5,
+          "y": 545,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 188.5,
+          "layer": "",
+          "locked": false,
+          "name": "TreeWALL",
+          "persistentUuid": "7bc2773f-3289-4f87-ae91-726e3a889849",
+          "width": 154.5,
+          "x": -57.25,
+          "y": 405.7697448730469,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120.5,
+          "layer": "",
+          "locked": false,
+          "name": "undergroundmonster",
+          "persistentUuid": "2c928e1d-28f0-4c1c-bfb3-cb0ab6b03346",
+          "width": 123.5,
+          "x": 5146.0498046875,
+          "y": 439.2537841796875,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Door",
+          "persistentUuid": "1038a55e-d4a9-4afc-9a8c-f74da4022a6a",
+          "width": 0,
+          "x": 5402,
+          "y": 416.5,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "88576028-7fa8-4ab8-83c5-867a89a8399d",
+          "width": 139,
+          "x": 2760.294189453125,
+          "y": 406,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "9e0b43c8-faba-48e0-abcb-830edcccc450",
+          "width": 139,
+          "x": 3655,
+          "y": 412,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "cc91dc7f-c458-4066-bd18-7b92fa454f8a",
+          "width": 139,
+          "x": 3990,
+          "y": 403,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 95,
+          "layer": "",
+          "locked": false,
+          "name": "soulfragments",
+          "persistentUuid": "4f766f7b-7e80-4b43-bdad-6bb312e89486",
+          "width": 139,
+          "x": 4372,
+          "y": 409,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "8b7ef89f-3c2a-48ff-8acc-5c9453498df8",
+          "width": 123,
+          "x": 2099.5,
+          "y": 426,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "03fec51b-7323-4b82-9402-c419958fc1dc",
+          "width": 123,
+          "x": 2285.5,
+          "y": 426,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "3d729ca2-969e-4cbd-998e-aff1e3e17a78",
+          "width": 123,
+          "x": 2505.5,
+          "y": 425.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "ba8c4e41-6098-4a12-9776-e24c175bfa2b",
+          "width": 123,
+          "x": 2707.5,
+          "y": 426.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "6c0a75a2-bd09-4d42-9891-777bd6526880",
+          "width": 123,
+          "x": 3227.5,
+          "y": 427.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "79f024ab-a50b-4e33-8fff-67e0a8ef101c",
+          "width": 123,
+          "x": 3021.5,
+          "y": 425.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "94d530fe-edc0-48a0-b6b7-8f8cb62abd19",
+          "width": 123,
+          "x": 3493.5,
+          "y": 426.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "28a683e8-e154-45a4-ad46-bcd840f0788d",
+          "width": 123,
+          "x": 4043.5,
+          "y": 425.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 151,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "734f18cf-5626-4006-93c2-29a091edf407",
+          "width": 123,
+          "x": 3752.5,
+          "y": 424.5131530761719,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "810c4ba0-f3d9-4f44-a230-6c97679248b0",
+          "width": 0,
+          "x": 4730,
+          "y": 294,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "4e61f6c5-0d58-44bf-b798-975efc6c0b00",
+          "width": 0,
+          "x": 3871,
+          "y": 356,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "43aae53a-3b8a-454d-85b4-fb1978e77a7d",
+          "width": 0,
+          "x": 3609,
+          "y": 353,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "13dd3d20-2941-4028-837c-dd7784581b38",
+          "width": 0,
+          "x": 3325,
+          "y": 359,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "37667f11-5ae5-4362-83e3-280a590e2ec0",
+          "width": 0,
+          "x": 4246,
+          "y": 350,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "dd3230de-6d70-4893-b702-a54f8a16e4b2",
+          "width": 0,
+          "x": 4570,
+          "y": 350,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FloatingPlatform3",
+          "persistentUuid": "e7633afd-a60c-49b8-90f8-1b4797de5991",
+          "width": 0,
+          "x": 4872,
+          "y": 253,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "7a627c05-9aae-41a1-a0d4-e2ca9b7b2387",
+          "width": 0,
+          "x": 4862,
+          "y": 179,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "53acbb80-abbb-4833-a455-663851a4610c",
+          "width": 0,
+          "x": 4719,
+          "y": 212,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Tree3",
+          "persistentUuid": "b18cda57-3f9e-437d-bc18-c772ef43695f",
+          "width": 0,
+          "x": 4556,
+          "y": 266,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 142,
+          "layer": "",
+          "locked": false,
+          "name": "DemonBoss",
+          "persistentUuid": "857204f4-fb6b-4738-8e64-f512966a97ab",
+          "width": 174.99990844726562,
+          "x": 2767.75,
+          "y": 759.3125,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 250,
+          "layer": "",
+          "locked": false,
+          "name": "CaveWall",
+          "persistentUuid": "1fad2073-ef3e-4008-b50f-534b921e7c82",
+          "width": 1372,
+          "x": 1724,
+          "y": 561,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 97,
+          "layer": "",
+          "locked": false,
+          "name": "CaveWall",
+          "persistentUuid": "7fa2fade-18c5-498e-b6b5-a1c6bb4cfe9f",
+          "width": 619,
+          "x": 1210,
+          "y": 496,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45439,6 +46320,65 @@
                           {
                             "x": 0,
                             "y": 112
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TreeWALL",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tree3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 61.5,
+                        "y": 55.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18.16666603088379,
+                            "y": 38.16666793823242
+                          },
+                          {
+                            "x": 102.83333587646484,
+                            "y": 23.16666603088379
+                          },
+                          {
+                            "x": 79.83333587646484,
+                            "y": 114
+                          },
+                          {
+                            "x": 65.5,
+                            "y": 113.16666412353516
                           }
                         ]
                       ]
@@ -45795,13 +46735,19 @@
           "texture": "assets\\wall3.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Variable",
+              "type": "string",
+              "value": ""
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
               "name": "Platform",
               "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
+              "canBeGrabbed": false,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
@@ -46214,7 +47160,15 @@
           "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
         },
         {
           "height": 32,
@@ -46415,16 +47369,16 @@
                             "y": 5
                           },
                           {
-                            "x": 38.5,
-                            "y": 3
+                            "x": 59.5,
+                            "y": 4.5
                           },
                           {
-                            "x": 42.5,
-                            "y": 44
+                            "x": 62.5,
+                            "y": 55.5
                           },
                           {
-                            "x": 3.5,
-                            "y": 44
+                            "x": 4.5,
+                            "y": 53.5
                           }
                         ]
                       ]
@@ -46455,12 +47409,12 @@
                             "y": 2
                           },
                           {
-                            "x": 46.5,
-                            "y": 43
+                            "x": 56.5,
+                            "y": 59.5
                           },
                           {
-                            "x": 4.5,
-                            "y": 43
+                            "x": 5.5,
+                            "y": 57.5
                           }
                         ]
                       ]
@@ -46491,12 +47445,12 @@
                             "y": 3
                           },
                           {
-                            "x": 47.5,
-                            "y": 58
+                            "x": 52.5,
+                            "y": 64.5
                           },
                           {
-                            "x": 1.5,
-                            "y": 57
+                            "x": 2.5,
+                            "y": 63.5
                           }
                         ]
                       ]
@@ -46527,12 +47481,12 @@
                             "y": 3
                           },
                           {
-                            "x": 47.5,
-                            "y": 58
+                            "x": 57.5,
+                            "y": 66
                           },
                           {
-                            "x": 1.5,
-                            "y": 57
+                            "x": 2.5,
+                            "y": 66
                           }
                         ]
                       ]
@@ -46672,11 +47626,11 @@
                           },
                           {
                             "x": 47.5,
-                            "y": 58
+                            "y": 64.5
                           },
                           {
-                            "x": 1.5,
-                            "y": 57
+                            "x": 6.5,
+                            "y": 65.5
                           }
                         ]
                       ]
@@ -46779,12 +47733,12 @@
                             "y": 3
                           },
                           {
-                            "x": 37,
-                            "y": 45
+                            "x": 49.5,
+                            "y": 59.5
                           },
                           {
-                            "x": 1.5,
-                            "y": 45
+                            "x": 6.5,
+                            "y": 59.5
                           }
                         ]
                       ]
@@ -47055,12 +48009,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47091,12 +48045,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47127,12 +48081,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47163,12 +48117,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47199,12 +48153,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47235,12 +48189,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47271,12 +48225,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47307,12 +48261,12 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
                           }
                         ]
                       ]
@@ -47343,12 +48297,215 @@
                             "y": 2.5
                           },
                           {
-                            "x": 44,
-                            "y": 32
+                            "x": 41.5,
+                            "y": 48
                           },
                           {
-                            "x": 0,
-                            "y": 32
+                            "x": 3.5,
+                            "y": 47.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Door",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Open",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DungeonMasterDoor_Close_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 82,
+                        "y": 83.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 40.5
+                          },
+                          {
+                            "x": 147,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 146,
+                            "y": 160
+                          },
+                          {
+                            "x": 16,
+                            "y": 156.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DungeonMasterDoor_Close_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 82,
+                        "y": 83.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 40.5
+                          },
+                          {
+                            "x": 147,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 146,
+                            "y": 160
+                          },
+                          {
+                            "x": 16,
+                            "y": 156.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DungeonMasterDoor_Close_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 82,
+                        "y": 83.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 40.5
+                          },
+                          {
+                            "x": 147,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 146,
+                            "y": 160
+                          },
+                          {
+                            "x": 16,
+                            "y": 156.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DungeonMasterDoor_Close_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 82,
+                        "y": 83.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 40.5
+                          },
+                          {
+                            "x": 147,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 146,
+                            "y": 160
+                          },
+                          {
+                            "x": 16,
+                            "y": 156.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "DungeonMasterDoor_Open.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 82,
+                        "y": 83.5
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 16,
+                            "y": 40.5
+                          },
+                          {
+                            "x": 147,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 146,
+                            "y": 160
+                          },
+                          {
+                            "x": 16,
+                            "y": 156.5
                           }
                         ]
                       ]
@@ -47679,18 +48836,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarScene"
-              },
-              "parameters": [
-                "hp",
-                "=",
-                "Player.Health::Health()"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -47723,18 +48868,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "HP",
-                "+",
-                "100"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Health::Health::SetHealth"
               },
               "parameters": [
@@ -47742,6 +48875,18 @@
                 "Health",
                 "100",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "HP",
+                "=",
+                "100"
               ],
               "subInstructions": []
             }
@@ -48199,14 +49344,6 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -48265,6 +49402,20 @@
             {
               "type": {
                 "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "Checkpoint2.X()",
+                "=",
+                "Checkpoint2.Y() - (Player.Height() - Checkpoint2.Height())"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Health::Health::Hit"
               },
               "parameters": [
@@ -48274,18 +49425,101 @@
                 ""
               ],
               "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "soulfragments",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "soulfragments",
+                ""
+              ],
+              "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "MettreXY"
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-fairy-arcade-sparkle-866.wav",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
               },
               "parameters": [
                 "Player",
-                "=",
-                "Checkpoint2.X()",
-                "=",
-                "Checkpoint2.Y() - (Player.Height() - Checkpoint2.Height())"
+                "TreeWALL",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "TreeWALL",
+                ""
               ],
               "subInstructions": []
             }
@@ -48931,29 +50165,16 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "Shield",
-                    "<=",
-                    "0"
+                    "="
                   ],
                   "subInstructions": []
                 }
               ],
               "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "=",
-                    "Player.Health::Health()"
-                  ],
-                  "subInstructions": []
-                },
                 {
                   "type": {
                     "inverted": false,
@@ -48964,6 +50185,18 @@
                     "Health",
                     "10",
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "-",
+                    "10\n"
                   ],
                   "subInstructions": []
                 }
@@ -48978,12 +50211,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "Shield",
-                    ">",
-                    "0"
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -49359,7 +50591,7 @@
                 "value": "EstTourne"
               },
               "parameters": [
-                "undergroundmonster",
+                "Bat",
                 "Player",
                 "90",
                 ""
@@ -49382,7 +50614,7 @@
                 "value": "FlipX"
               },
               "parameters": [
-                "undergroundmonster",
+                "Bat",
                 "yes"
               ],
               "subInstructions": []
@@ -49401,7 +50633,7 @@
                 "value": "EstTourne"
               },
               "parameters": [
-                "undergroundmonster",
+                "Bat",
                 "Player",
                 "90",
                 ""
@@ -49424,7 +50656,7 @@
                 "value": "FlipX"
               },
               "parameters": [
-                "undergroundmonster",
+                "Bat",
                 "no"
               ],
               "subInstructions": []
@@ -49637,18 +50869,6 @@
                 "1"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "HP",
-                "=",
-                "Player.Health::Health()"
-              ],
-              "subInstructions": []
             }
           ],
           "events": [
@@ -49660,12 +50880,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "Shield",
-                    "<=",
-                    "0"
+                    "<="
                   ],
                   "subInstructions": []
                 }
@@ -49695,18 +50914,6 @@
                     ""
                   ],
                   "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
                 }
               ],
               "events": []
@@ -49719,12 +50926,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "Shield",
-                    ">",
-                    "0"
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -49809,6 +51015,42 @@
               "parameters": [
                 "Bat",
                 "\"Flying\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bat",
+                "DamagedWall",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Bat",
+                "DamagedWall",
+                ""
               ],
               "subInstructions": []
             }
@@ -50449,12 +51691,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "Shield",
-                    "<=",
-                    "0"
+                    "<="
                   ],
                   "subInstructions": []
                 }
@@ -50480,8 +51721,8 @@
                   },
                   "parameters": [
                     "HP",
-                    "=",
-                    "Player.Health::Health()"
+                    "-",
+                    "10\n"
                   ],
                   "subInstructions": []
                 }
@@ -50496,12 +51737,11 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
                     "Shield",
-                    ">",
-                    "0"
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -50586,6 +51826,724 @@
               "parameters": [
                 "undergroundmonster",
                 "\"Idle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Demon miniboss",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "DemonBoss",
+                "direction",
+                "=",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "DemonBoss",
+                "0",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "DemonBoss",
+                "left",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "DemonBoss",
+                "direction",
+                "=",
+                "\"left\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "DemonBoss",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "DemonBoss",
+                "PlayerOrientationLeft",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "DemonBoss",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "DemonBoss",
+                "direction",
+                "=",
+                "\"left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "DemonBoss",
+                "180",
+                "50",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "DemonBoss",
+                "right",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "DemonBoss",
+                "direction",
+                "=",
+                "\"right\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "DemonBoss",
+                "PlayerOrientationRight",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "DemonBoss",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "DemonBoss",
+                "200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "DemonBoss",
+                "Pathfinding",
+                "",
+                "Player.X()",
+                "Player.Y()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "DemonBoss",
+                "Player",
+                "90",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "DemonBoss",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "DemonBoss",
+                "Player",
+                "90",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "DemonBoss",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Projectile",
+                "DemonBoss",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Projectile",
+                "\"Blast\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "DemonBoss",
+                "\"Hit\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-exclamation-of-pain-from-a-zombie-2207.wav",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "DemonBoss",
+                "Health",
+                "30",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Projectile",
+                    "\"Blast\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Projectile",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "DemonBoss",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "15"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "DemonBoss",
+                "\"Dead\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "DemonBoss"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "DemonBoss",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "DemonBoss",
+                "HitBox",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "DemonBoss",
+                "\"Attack\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "DemonBoss",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Shield",
+                    "="
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "15",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "HP",
+                    "-",
+                    "15"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Shield",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Shield",
+                    "-",
+                    "15"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "DemonBoss"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "DemonBoss",
+                "\"Walk\""
               ],
               "subInstructions": []
             }
@@ -51298,6 +53256,107 @@
                 "\"linear\"",
                 "2000",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Entrance to Level 4",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "undergroundmonster",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "Door",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Door",
+                "\"Open\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level4\"",
+                "yes"
               ],
               "subInstructions": []
             }
