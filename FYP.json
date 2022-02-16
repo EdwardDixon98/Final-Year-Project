@@ -10155,60 +10155,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "ready_13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ready_13.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ready_23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ready_23.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ready_33.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ready_33.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ready_43.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ready_43.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ready_53.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ready_53.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "ready_63.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "ready_63.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "HUECO MUNDO (BLEACH REMIX).mp3",
         "kind": "audio",
         "metadata": "",
@@ -12822,6 +12768,177 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ready_63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ready_63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BossSkill72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BossSkill72.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BossSkill82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BossSkill82.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BossSkill92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BossSkill92.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0008_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0008_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0002_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0002_7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0008_3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0008_3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0002_7-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0002_7-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0009_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0009_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0011_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0011_0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0001_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0001_8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0001_8-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0001_8-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0008_3-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0008_3-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Layer_0002_7-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Layer_0002_7-1-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13229,14 +13346,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 82,
-                    "y": 121.5
+                    "x": 76,
+                    "y": 125.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 81,
-                    "y": 125.5
+                    "x": 76,
+                    "y": 123.5
                   },
                   "customCollisionMask": [
                     [
@@ -13265,14 +13382,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 82,
+                    "x": 68,
                     "y": 121.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 81,
-                    "y": 125.5
+                    "x": 67,
+                    "y": 121.5
                   },
                   "customCollisionMask": [
                     [
@@ -13302,13 +13419,13 @@
                   "originPoint": {
                     "name": "origine",
                     "x": 82,
-                    "y": 121.5
+                    "y": 119.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 81,
-                    "y": 125.5
+                    "x": 84,
+                    "y": 118.5
                   },
                   "customCollisionMask": [
                     [
@@ -13337,14 +13454,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 82,
+                    "x": 88,
                     "y": 121.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 81,
-                    "y": 125.5
+                    "x": 90,
+                    "y": 121.5
                   },
                   "customCollisionMask": [
                     [
@@ -13613,14 +13730,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 82,
-                    "y": 121.5
+                    "x": 77,
+                    "y": 106.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 81,
-                    "y": 125.5
+                    "x": 77,
+                    "y": 106.5
                   },
                   "customCollisionMask": [
                     [
@@ -13649,14 +13766,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 82,
-                    "y": 121.5
+                    "x": 83,
+                    "y": 123.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 81,
-                    "y": 125.5
+                    "x": 84,
+                    "y": 117.5
                   },
                   "customCollisionMask": [
                     [
@@ -19386,7 +19503,7 @@
               "timeBetweenFrames": 0.1429000049829483,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_1.png",
                   "points": [],
                   "originPoint": {
@@ -19400,10 +19517,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9.822443008422852,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.2769889831543,
+                        "y": 0
+                      },
+                      {
+                        "x": 37.09516906738281,
+                        "y": 28.409090042114258
+                      },
+                      {
+                        "x": 8.458806991577148,
+                        "y": 27.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_2.png",
                   "points": [],
                   "originPoint": {
@@ -19417,10 +19553,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_3.png",
                   "points": [],
                   "originPoint": {
@@ -19434,10 +19589,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_4.png",
                   "points": [],
                   "originPoint": {
@@ -19451,10 +19625,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_5.png",
                   "points": [],
                   "originPoint": {
@@ -19468,10 +19661,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_6.png",
                   "points": [],
                   "originPoint": {
@@ -19485,10 +19697,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling In_7.png",
                   "points": [],
                   "originPoint": {
@@ -19502,7 +19733,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -19517,7 +19767,7 @@
               "timeBetweenFrames": 0.1429000049829483,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_1.png",
                   "points": [],
                   "originPoint": {
@@ -19531,10 +19781,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_2.png",
                   "points": [],
                   "originPoint": {
@@ -19548,10 +19817,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_3.png",
                   "points": [],
                   "originPoint": {
@@ -19565,10 +19853,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_4.png",
                   "points": [],
                   "originPoint": {
@@ -19582,10 +19889,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_5.png",
                   "points": [],
                   "originPoint": {
@@ -19599,10 +19925,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_6.png",
                   "points": [],
                   "originPoint": {
@@ -19616,10 +19961,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Ceiling Out_7.png",
                   "points": [],
                   "originPoint": {
@@ -19633,7 +19997,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -19648,7 +20031,7 @@
               "timeBetweenFrames": 0.1429000049829483,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_1.png",
                   "points": [],
                   "originPoint": {
@@ -19662,10 +20045,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_2.png",
                   "points": [],
                   "originPoint": {
@@ -19679,10 +20081,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_3.png",
                   "points": [],
                   "originPoint": {
@@ -19696,10 +20117,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_4.png",
                   "points": [],
                   "originPoint": {
@@ -19713,10 +20153,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_5.png",
                   "points": [],
                   "originPoint": {
@@ -19730,10 +20189,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_6.png",
                   "points": [],
                   "originPoint": {
@@ -19747,10 +20225,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Flying_7.png",
                   "points": [],
                   "originPoint": {
@@ -19764,7 +20261,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.186079502105713,
+                        "y": 1.5909091234207153
+                      },
+                      {
+                        "x": 43.913352966308594,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 43.0042610168457,
+                        "y": 23.409090042114258
+                      },
+                      {
+                        "x": 3.0042612552642822,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -19779,7 +20295,7 @@
               "timeBetweenFrames": 0.20000000298023224,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Hit_1.png",
                   "points": [],
                   "originPoint": {
@@ -19793,10 +20309,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.276988506317139,
+                        "y": 9.318181991577148
+                      },
+                      {
+                        "x": 37.09516906738281,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 39.822444915771484,
+                        "y": 25.68181800842285
+                      },
+                      {
+                        "x": 8.004261016845703,
+                        "y": 22.954545974731445
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Hit_2.png",
                   "points": [],
                   "originPoint": {
@@ -19810,10 +20345,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.276988506317139,
+                        "y": 9.318181991577148
+                      },
+                      {
+                        "x": 37.09516906738281,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 39.822444915771484,
+                        "y": 25.68181800842285
+                      },
+                      {
+                        "x": 8.004261016845703,
+                        "y": 22.954545974731445
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Hit_3.png",
                   "points": [],
                   "originPoint": {
@@ -19827,10 +20381,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.276988506317139,
+                        "y": 9.318181991577148
+                      },
+                      {
+                        "x": 37.09516906738281,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 39.822444915771484,
+                        "y": 25.68181800842285
+                      },
+                      {
+                        "x": 8.004261016845703,
+                        "y": 22.954545974731445
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Hit_4.png",
                   "points": [],
                   "originPoint": {
@@ -19844,10 +20417,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.276988506317139,
+                        "y": 9.318181991577148
+                      },
+                      {
+                        "x": 37.09516906738281,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 39.822444915771484,
+                        "y": 25.68181800842285
+                      },
+                      {
+                        "x": 8.004261016845703,
+                        "y": 22.954545974731445
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Hit_5.png",
                   "points": [],
                   "originPoint": {
@@ -19861,7 +20453,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5.276988506317139,
+                        "y": 9.318181991577148
+                      },
+                      {
+                        "x": 37.09516906738281,
+                        "y": 3.8636362552642822
+                      },
+                      {
+                        "x": 39.822444915771484,
+                        "y": 25.68181800842285
+                      },
+                      {
+                        "x": 8.004261016845703,
+                        "y": 22.954545974731445
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -19876,7 +20487,7 @@
               "timeBetweenFrames": 0.08330000191926956,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_1.png",
                   "points": [],
                   "originPoint": {
@@ -19890,10 +20501,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_2.png",
                   "points": [],
                   "originPoint": {
@@ -19907,10 +20537,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_3.png",
                   "points": [],
                   "originPoint": {
@@ -19924,10 +20573,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_4.png",
                   "points": [],
                   "originPoint": {
@@ -19941,10 +20609,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_5.png",
                   "points": [],
                   "originPoint": {
@@ -19958,10 +20645,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_6.png",
                   "points": [],
                   "originPoint": {
@@ -19975,10 +20681,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_7.png",
                   "points": [],
                   "originPoint": {
@@ -19992,10 +20717,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_8.png",
                   "points": [],
                   "originPoint": {
@@ -20009,10 +20753,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_9.png",
                   "points": [],
                   "originPoint": {
@@ -20026,10 +20789,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_10.png",
                   "points": [],
                   "originPoint": {
@@ -20043,10 +20825,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_11.png",
                   "points": [],
                   "originPoint": {
@@ -20060,10 +20861,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Bat_Idle_12.png",
                   "points": [],
                   "originPoint": {
@@ -20077,7 +20897,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.276988983154297,
+                        "y": 0
+                      },
+                      {
+                        "x": 35.73153305053711,
+                        "y": 2.045454502105713
+                      },
+                      {
+                        "x": 36.640625,
+                        "y": 28.863636016845703
+                      },
+                      {
+                        "x": 7.549715995788574,
+                        "y": 25.227272033691406
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -21822,7 +22661,13 @@
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "lives",
+          "type": "string",
+          "value": "3"
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -23893,7 +24738,7 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -24280,12 +25125,6 @@
       ],
       "effects": [],
       "behaviors": [
-        {
-          "name": "FireBullet",
-          "type": "FireBullet::FireBullet",
-          "FireCooldown": 0.1,
-          "HasJustFired": false
-        },
         {
           "name": "Health",
           "type": "Health::Health",
@@ -25543,6 +26382,8 @@
           "CooldownActive": false
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -25553,15 +26394,13 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "name": "Pathfinding",
-          "rotateObject": false,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "rotateObject": false
         },
         {
-          "canGoDownFromJumpthru": false,
-          "gravity": 1000,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGoDownFromJumpthru": false,
+          "gravity": 1000,
           "acceleration": 1500,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
@@ -25613,12 +26452,12 @@
                         "y": 6.5
                       },
                       {
-                        "x": 37.5,
-                        "y": 128
+                        "x": 49.5,
+                        "y": 112.5
                       },
                       {
-                        "x": 0.5,
-                        "y": 122.5
+                        "x": 0,
+                        "y": 4.5
                       }
                     ]
                   ]
@@ -25649,12 +26488,12 @@
                         "y": 6.5
                       },
                       {
-                        "x": 37.5,
-                        "y": 128
+                        "x": 49.5,
+                        "y": 112.5
                       },
                       {
-                        "x": 0.5,
-                        "y": 122.5
+                        "x": 0,
+                        "y": 4.5
                       }
                     ]
                   ]
@@ -25685,12 +26524,12 @@
                         "y": 6.5
                       },
                       {
-                        "x": 37.5,
-                        "y": 128
+                        "x": 49.5,
+                        "y": 112.5
                       },
                       {
-                        "x": 0.5,
-                        "y": 122.5
+                        "x": 0,
+                        "y": 4.5
                       }
                     ]
                   ]
@@ -25721,12 +26560,12 @@
                         "y": 6.5
                       },
                       {
-                        "x": 37.5,
-                        "y": 128
+                        "x": 49.5,
+                        "y": 112.5
                       },
                       {
-                        "x": 0.5,
-                        "y": 122.5
+                        "x": 0,
+                        "y": 4.5
                       }
                     ]
                   ]
@@ -25757,12 +26596,12 @@
                         "y": 6.5
                       },
                       {
-                        "x": 37.5,
-                        "y": 128
+                        "x": 49.5,
+                        "y": 112.5
                       },
                       {
-                        "x": 0.5,
-                        "y": 122.5
+                        "x": 0,
+                        "y": 4.5
                       }
                     ]
                   ]
@@ -25793,12 +26632,12 @@
                         "y": 6.5
                       },
                       {
-                        "x": 37.5,
-                        "y": 128
+                        "x": 49.5,
+                        "y": 112.5
                       },
                       {
-                        "x": 0.5,
-                        "y": 122.5
+                        "x": 0,
+                        "y": 4.5
                       }
                     ]
                   ]
@@ -25821,14 +26660,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 42,
-                    "y": 56.5
+                    "x": 117,
+                    "y": 48.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 42,
-                    "y": 57.5
+                    "x": 114,
+                    "y": 50.5
                   },
                   "customCollisionMask": [
                     [
@@ -25857,14 +26696,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 45,
-                    "y": 55.5
+                    "x": 117,
+                    "y": 48.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 44,
-                    "y": 58.5
+                    "x": 114,
+                    "y": 50.5
                   },
                   "customCollisionMask": [
                     [
@@ -25893,14 +26732,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 50,
-                    "y": 54.5
+                    "x": 92,
+                    "y": 50.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 49,
-                    "y": 56.5
+                    "x": 92,
+                    "y": 51.5
                   },
                   "customCollisionMask": [
                     [
@@ -25929,14 +26768,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 62.5,
-                    "y": 53.5
+                    "x": 90,
+                    "y": 50.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 62.5,
-                    "y": 50.5
+                    "x": 91,
+                    "y": 51.5
                   },
                   "customCollisionMask": [
                     [
@@ -25965,14 +26804,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 32.5,
-                    "y": 46.5
+                    "x": 106,
+                    "y": 47.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 33.5,
-                    "y": 48.5
+                    "x": 109,
+                    "y": 49.5
                   },
                   "customCollisionMask": [
                     [
@@ -26001,14 +26840,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 41,
-                    "y": 55.5
+                    "x": 117,
+                    "y": 48.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 40,
-                    "y": 56.5
+                    "x": 114,
+                    "y": 50.5
                   },
                   "customCollisionMask": [
                     [
@@ -26037,14 +26876,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 49,
-                    "y": 55
+                    "x": 117,
+                    "y": 48.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 47,
-                    "y": 55
+                    "x": 114,
+                    "y": 50.5
                   },
                   "customCollisionMask": [
                     [
@@ -26073,14 +26912,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 146,
-                    "y": 54
+                    "x": 59,
+                    "y": 46.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 145,
-                    "y": 53
+                    "x": 60,
+                    "y": 46.5
                   },
                   "customCollisionMask": [
                     [
@@ -26109,14 +26948,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 146.5,
-                    "y": 52
+                    "x": 73,
+                    "y": 46.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 146.5,
-                    "y": 48
+                    "x": 72,
+                    "y": 48.5
                   },
                   "customCollisionMask": [
                     [
@@ -26145,14 +26984,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 140,
-                    "y": 57.5
+                    "x": 82,
+                    "y": 46.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 139,
-                    "y": 56.5
+                    "x": 83,
+                    "y": 48.5
                   },
                   "customCollisionMask": [
                     [
@@ -26181,14 +27020,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 129.5,
-                    "y": 55
+                    "x": 48,
+                    "y": 49.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 131.5,
-                    "y": 51
+                    "x": 48,
+                    "y": 50.5
                   },
                   "customCollisionMask": [
                     [
@@ -26217,14 +27056,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 135.5,
-                    "y": 50
+                    "x": 44,
+                    "y": 47.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 133.5,
-                    "y": 48
+                    "x": 43,
+                    "y": 48.5
                   },
                   "customCollisionMask": [
                     [
@@ -26253,14 +27092,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 134,
-                    "y": 55.5
+                    "x": 59,
+                    "y": 49.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 133,
-                    "y": 53.5
+                    "x": 56,
+                    "y": 50.5
                   },
                   "customCollisionMask": [
                     [
@@ -26289,14 +27128,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 120,
-                    "y": 51.5
+                    "x": 51,
+                    "y": 50.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 121,
-                    "y": 51.5
+                    "x": 52,
+                    "y": 49.5
                   },
                   "customCollisionMask": [
                     [
@@ -26337,32 +27176,32 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 29,
-                    "y": 55
+                    "x": 83.5,
+                    "y": 51.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 29,
-                    "y": 56
+                    "x": 82.5,
+                    "y": 49.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 16.5
+                        "x": 12.5,
+                        "y": 22.5
                       },
                       {
                         "x": 163.5,
                         "y": 19.5
                       },
                       {
-                        "x": 162.5,
-                        "y": 128
+                        "x": 165.5,
+                        "y": 110.5
                       },
                       {
-                        "x": 1,
-                        "y": 128
+                        "x": 29.5,
+                        "y": 102.5
                       }
                     ]
                   ]
@@ -26373,32 +27212,32 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 29,
-                    "y": 55
+                    "x": 83.5,
+                    "y": 51.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 29,
-                    "y": 56
+                    "x": 82.5,
+                    "y": 49.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 16.5
+                        "x": 29.5,
+                        "y": 37.5
                       },
                       {
-                        "x": 95,
-                        "y": 13.5
+                        "x": 191,
+                        "y": 31.5
                       },
                       {
                         "x": 95,
                         "y": 128
                       },
                       {
-                        "x": 1,
-                        "y": 128
+                        "x": 45.5,
+                        "y": 110.5
                       }
                     ]
                   ]
@@ -26409,32 +27248,32 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 133.5,
-                    "y": 62.5
+                    "x": 83.5,
+                    "y": 51.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 133.5,
-                    "y": 64.5
+                    "x": 82.5,
+                    "y": 49.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 16.5
+                        "x": 33.5,
+                        "y": 40.5
                       },
                       {
-                        "x": 163.5,
-                        "y": 19.5
+                        "x": 191,
+                        "y": 36.5
                       },
                       {
-                        "x": 162.5,
-                        "y": 128
+                        "x": 76.5,
+                        "y": 120.5
                       },
                       {
-                        "x": 1,
-                        "y": 128
+                        "x": 20.5,
+                        "y": 110.5
                       }
                     ]
                   ]
@@ -26445,31 +27284,31 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 67.5,
-                    "y": 60.5
+                    "x": 83.5,
+                    "y": 51.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 69.5,
-                    "y": 62.5
+                    "x": 82.5,
+                    "y": 49.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 16.5
+                        "x": 61.5,
+                        "y": 39.5
                       },
                       {
-                        "x": 103.5,
-                        "y": 13.5
+                        "x": 191,
+                        "y": 43.5
                       },
                       {
-                        "x": 97.5,
+                        "x": 114.5,
                         "y": 128
                       },
                       {
-                        "x": 1,
+                        "x": 67.5,
                         "y": 128
                       }
                     ]
@@ -26687,7 +27526,7 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "tile0006.png",
                   "points": [],
                   "originPoint": {
@@ -26701,10 +27540,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 97,
+                        "y": 49.5
+                      },
+                      {
+                        "x": 136,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 138,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 98,
+                        "y": 122.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "tile0016.png",
                   "points": [],
                   "originPoint": {
@@ -26718,10 +27576,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 97,
+                        "y": 49.5
+                      },
+                      {
+                        "x": 136,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 138,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 98,
+                        "y": 122.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "tile0026.png",
                   "points": [],
                   "originPoint": {
@@ -26735,10 +27612,29 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 97,
+                        "y": 49.5
+                      },
+                      {
+                        "x": 136,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 138,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 98,
+                        "y": 122.5
+                      }
+                    ]
+                  ]
                 },
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "tile0036.png",
                   "points": [],
                   "originPoint": {
@@ -26752,7 +27648,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 97,
+                        "y": 49.5
+                      },
+                      {
+                        "x": 136,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 138,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 98,
+                        "y": 122.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -27010,8 +27925,8 @@
                         "y": 124
                       },
                       {
-                        "x": 999,
-                        "y": 127
+                        "x": 998,
+                        "y": 128
                       },
                       {
                         "x": 996.6666870117188,
@@ -27820,7 +28735,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13,
+        "zoomFactor": 0.21,
         "windowMask": false
       },
       "objectsGroups": [
@@ -28790,7 +29705,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 558,
+          "height": 423,
           "layer": "",
           "locked": false,
           "name": "TopObject",
@@ -29100,8 +30015,8 @@
           "name": "Goblin",
           "persistentUuid": "349c5493-2209-4458-a221-da6fdaf07393",
           "width": 0,
-          "x": 435,
-          "y": 451,
+          "x": 453,
+          "y": 453.5,
           "zOrder": 95,
           "numberProperties": [],
           "stringProperties": [],
@@ -29117,7 +30032,7 @@
           "persistentUuid": "8d8eb3a1-7bb1-427d-9983-38cbf5615ee1",
           "width": 310,
           "x": 8334.900390625,
-          "y": 111.828125,
+          "y": 117.828125,
           "zOrder": 96,
           "numberProperties": [],
           "stringProperties": [],
@@ -29199,6 +30114,22 @@
           "x": 6299,
           "y": 127,
           "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "WaterWaves",
+          "persistentUuid": "81d20815-3b66-4541-a6a1-84712ed1cd70",
+          "width": 946,
+          "x": 3570,
+          "y": 204,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31246,7 +32177,7 @@
         },
         {
           "height": 128,
-          "name": "SummerTileWaterWaves",
+          "name": "WaterWaves",
           "tags": "",
           "texture": "tiled_Summer Tile Water Waves.png",
           "type": "TiledSpriteObject::TiledSprite",
@@ -33030,6 +33961,28 @@
               ]
             }
           ]
+        },
+        {
+          "height": 32,
+          "name": "NewObject3",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 128,
+          "name": "SummerTileWaterWaves2",
+          "tags": "",
+          "texture": "tiled_Summer Tile Water Waves.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -36027,7 +36980,7 @@
               },
               "parameters": [
                 "Player",
-                "MagicBridge",
+                "WaterWaves",
                 "",
                 "",
                 ""
@@ -36053,13 +37006,13 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarObjet"
+                "value": "Health::Health::Hit"
               },
               "parameters": [
                 "Player",
-                "Lives",
-                "-",
-                "1"
+                "Health",
+                "20",
+                ""
               ],
               "subInstructions": []
             }
@@ -37259,7 +38212,7 @@
               "parameters": [
                 "Player",
                 "DemonBoss",
-                "200",
+                "300",
                 ""
               ],
               "subInstructions": []
@@ -39282,7 +40235,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34999999999999987,
+        "zoomFactor": 0.1699999999999999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39415,7 +40368,7 @@
           "persistentUuid": "000f43c0-b5fd-4a3b-b71b-4355042b2ca6",
           "width": 0,
           "x": 362,
-          "y": 449,
+          "y": 486.5,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -40583,7 +41536,7 @@
           "persistentUuid": "27787bd1-75e4-4873-b11f-590e35707d56",
           "width": 137,
           "x": 6169,
-          "y": 517,
+          "y": 511,
           "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
@@ -49954,6 +50907,17 @@
                 "FairyOption1.Y()"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "SpriteDissapear",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -49972,7 +50936,7 @@
                 "",
                 "\"BossTimer\"",
                 ">",
-                "5"
+                "3"
               ],
               "subInstructions": []
             }
@@ -50039,7 +51003,7 @@
                 "",
                 "\"BossTimer\"",
                 ">",
-                "7"
+                "5"
               ],
               "subInstructions": []
             }
@@ -50485,7 +51449,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5400000000000003,
+        "zoomFactor": 0.24000000000000007,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -51465,8 +52429,8 @@
           "name": "Bat",
           "persistentUuid": "8b295bd6-cf56-4f62-a713-8c23a16a5358",
           "width": 0,
-          "x": 2198,
-          "y": 626,
+          "x": 2207,
+          "y": 672.5,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -51497,8 +52461,8 @@
           "name": "Bat",
           "persistentUuid": "633b33b5-fbc2-453a-a7a7-212cff630e00",
           "width": 0,
-          "x": 2530,
-          "y": 644,
+          "x": 2556,
+          "y": 666.5,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -51785,8 +52749,8 @@
           "name": "Checkpoint2",
           "persistentUuid": "d7ae2ad6-c346-40f4-ba36-37b0aecc7e7b",
           "width": 0,
-          "x": 1114,
-          "y": 434,
+          "x": 1116,
+          "y": 474.5,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -51801,8 +52765,8 @@
           "name": "DemonBoss",
           "persistentUuid": "6ab6f1ab-97b5-46f7-8b86-800d7cd413cb",
           "width": 152,
-          "x": 4592.47998046875,
-          "y": 449.796875,
+          "x": 4590.47998046875,
+          "y": 463.296875,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -51833,8 +52797,8 @@
           "name": "DemonBoss",
           "persistentUuid": "5a64e9fa-97f3-4e4b-811c-af67a1cdb68c",
           "width": 152,
-          "x": 4211.47998046875,
-          "y": 449.796875,
+          "x": 4235.47998046875,
+          "y": 463.296875,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -51961,8 +52925,8 @@
           "name": "BlueOrb",
           "persistentUuid": "dcdaec30-9016-43fe-9579-417f6b56ecb7",
           "width": 0,
-          "x": 1991,
-          "y": 454,
+          "x": 2111,
+          "y": 767,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -52073,8 +53037,8 @@
           "name": "undergroundmonster",
           "persistentUuid": "2c928e1d-28f0-4c1c-bfb3-cb0ab6b03346",
           "width": 123.5,
-          "x": 5146.0498046875,
-          "y": 439.2537841796875,
+          "x": 5145.75,
+          "y": 441.0340881347656,
           "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
@@ -52473,8 +53437,8 @@
           "name": "DemonBoss",
           "persistentUuid": "857204f4-fb6b-4738-8e64-f512966a97ab",
           "width": 174.99990844726562,
-          "x": 2767.75,
-          "y": 759.3125,
+          "x": 2769.75,
+          "y": 766.3125,
           "zOrder": 116,
           "numberProperties": [],
           "stringProperties": [],
@@ -53623,13 +54587,6 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "AnimatedBackAndForthMirroredMovement",
-              "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
-              "SpeedX": 200,
-              "DistanceX": 300,
-              "InitialX": 0
-            },
-            {
               "name": "Flash",
               "type": "Flash::Flash",
               "HalfPeriodTime": 0.1,
@@ -53641,7 +54598,7 @@
               "type": "Health::Health",
               "Health": 150,
               "DamageCooldown": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 150,
               "IsJustDamaged": false,
               "CooldownActive": false
             },
@@ -53693,14 +54650,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 24.5,
-                        "y": 21.5
+                        "x": 27.5,
+                        "y": 28.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 25.5,
-                        "y": 22.5
+                        "x": 26.5,
+                        "y": 28.5
                       },
                       "customCollisionMask": [
                         [
@@ -53729,14 +54686,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 35.5,
-                        "y": 26
+                        "x": 25.5,
+                        "y": 35.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 34.5,
-                        "y": 25
+                        "x": 25.5,
+                        "y": 34.5
                       },
                       "customCollisionMask": [
                         [
@@ -53765,14 +54722,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 27,
-                        "y": 34.5
+                        "x": 27.5,
+                        "y": 37.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 28,
-                        "y": 34.5
+                        "x": 28.5,
+                        "y": 38.5
                       },
                       "customCollisionMask": [
                         [
@@ -53837,14 +54794,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 16,
-                        "y": 32.5
+                        "x": 32.5,
+                        "y": 30.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 15,
-                        "y": 32.5
+                        "x": 33.5,
+                        "y": 29.5
                       },
                       "customCollisionMask": [
                         [
@@ -53873,14 +54830,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 27.5,
-                        "y": 35
+                        "x": 36.5,
+                        "y": 34.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 26.5,
-                        "y": 35
+                        "x": 37.5,
+                        "y": 34.5
                       },
                       "customCollisionMask": [
                         [
@@ -53909,14 +54866,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 17.5,
-                        "y": 21
+                        "x": 30.5,
+                        "y": 32.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 17.5,
-                        "y": 22
+                        "x": 29.5,
+                        "y": 30.5
                       },
                       "customCollisionMask": [
                         [
@@ -53981,14 +54938,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 24.5,
-                        "y": 40.5
+                        "x": 40.5,
+                        "y": 37.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 23.5,
-                        "y": 43.5
+                        "x": 40.5,
+                        "y": 37.5
                       },
                       "customCollisionMask": [
                         [
@@ -54017,14 +54974,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 24,
-                        "y": 27
+                        "x": 34.5,
+                        "y": 33.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 24,
-                        "y": 31
+                        "x": 33.5,
+                        "y": 32.5
                       },
                       "customCollisionMask": [
                         [
@@ -54053,14 +55010,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 24.5,
-                        "y": 21.5
+                        "x": 19.5,
+                        "y": 30.5
                       },
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 25.5,
-                        "y": 22.5
+                        "x": 20.5,
+                        "y": 29.5
                       },
                       "customCollisionMask": [
                         [
@@ -57028,14 +57985,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -59715,7 +60664,7 @@
               },
               "parameters": [
                 "",
-                "\"Big Boss Battle\"",
+                "\"Level4\"",
                 "yes"
               ],
               "subInstructions": []
@@ -60152,7 +61101,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23000000000000012,
+        "zoomFactor": 0.15000000000000022,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -60488,8 +61437,8 @@
           "name": "Bat",
           "persistentUuid": "599966ed-b5f3-4350-b2b0-5f6dd1745109",
           "width": 135,
-          "x": 929.5,
-          "y": 769.0833129882812,
+          "x": 914.5,
+          "y": 750.0833129882812,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -60504,8 +61453,8 @@
           "name": "Bat",
           "persistentUuid": "50432673-e110-46b1-92a4-0b6c4b378e85",
           "width": 135,
-          "x": 1303,
-          "y": 729,
+          "x": 1349.5,
+          "y": 733.0833129882812,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -60736,7 +61685,7 @@
           "initialVariables": []
         },
         {
-          "angle": 300.9254455566406,
+          "angle": 49.86900329589844,
           "customSize": true,
           "height": 332,
           "layer": "",
@@ -60744,8 +61693,8 @@
           "name": "BossMain",
           "persistentUuid": "2734452d-8f4d-4018-94fd-92e10b8cf7f2",
           "width": 240.99977111816406,
-          "x": 6700.7314453125,
-          "y": 708.2896728515625,
+          "x": 6028.98876953125,
+          "y": 699.7335205078125,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -60760,8 +61709,8 @@
           "name": "BossThreat",
           "persistentUuid": "b65cf7ff-496c-457e-9b2c-9444f19b847d",
           "width": 1075,
-          "x": 5684,
-          "y": 525,
+          "x": 5741,
+          "y": 458,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -65429,40 +66378,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "\"HP\"",
-                    "<=",
-                    "5"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
@@ -65970,14 +66885,6 @@
                 "",
                 ""
               ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
               "subInstructions": []
             }
           ],
@@ -67423,14 +68330,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -68039,7 +68938,7 @@
               },
               "parameters": [
                 "",
-                "\"Level4\"",
+                "\"Big Boss Battle\"",
                 "yes"
               ],
               "subInstructions": []
@@ -68469,7 +69368,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29999999999999954,
+        "zoomFactor": 0.35999999999999954,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -68487,7 +69386,12 @@
         {
           "name": "BossHP",
           "type": "string",
-          "value": "250"
+          "value": "200"
+        },
+        {
+          "name": "RealBossHp",
+          "type": "string",
+          "value": "300"
         }
       ],
       "instances": [
@@ -68501,7 +69405,7 @@
           "persistentUuid": "b4bd7fef-9033-4280-8b53-a5790dd9b50c",
           "width": 5541,
           "x": -1881,
-          "y": -1132,
+          "y": -1127,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -68532,8 +69436,8 @@
           "name": "WoodsFarFar",
           "persistentUuid": "f0b9bb2b-248d-42c3-a34a-47d3eec5de28",
           "width": 5522,
-          "x": -1869,
-          "y": 476,
+          "x": -1867,
+          "y": 474,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -68580,8 +69484,8 @@
           "name": "L4Platform",
           "persistentUuid": "39fdb06b-6c16-4f98-9d43-600ad201e820",
           "width": 1030,
-          "x": 1417.56005859375,
-          "y": 1018.454833984375,
+          "x": 1453.56005859375,
+          "y": 1013.454833984375,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -68597,7 +69501,7 @@
           "persistentUuid": "4c27aa8c-5633-4fd8-b53d-6bf1dad75e29",
           "width": 1000,
           "x": 2421,
-          "y": 1017,
+          "y": 1013.454833984375,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -68766,22 +69670,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 230,
-          "layer": "",
-          "locked": false,
-          "name": "RealBoss",
-          "persistentUuid": "88154db6-7b6e-40a3-ab57-5f110c21c2c6",
-          "width": 181,
-          "x": 592.845458984375,
-          "y": 819.640625,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 140,
           "layer": "",
           "locked": false,
@@ -68886,10 +69774,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -69097,13 +69985,15 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 100,
+              "Health": 300,
               "DamageCooldown": 0,
-              "MaxHealth": 100,
+              "MaxHealth": 300,
               "IsJustDamaged": false,
               "CooldownActive": false
             },
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -69114,11 +70004,11 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
-              "rotateObject": false,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "rotateObject": false
             },
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -69131,9 +70021,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -70195,6 +71083,126 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BossSkill72.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 23.5,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 11
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BossSkill82.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 23.5,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 11
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "BossSkill92.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 23.5,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 48.5,
+                            "y": 11
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 56
+                          },
+                          {
+                            "x": 10.5,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -70344,10 +71352,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -70432,10 +71440,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -70515,7 +71523,7 @@
             }
           ],
           "behaviors": [],
-          "string": "Even You Cannnot Escape Death This Time",
+          "string": "I am MANY",
           "font": "IMMORTAL.ttf",
           "characterSize": 50,
           "color": {
@@ -70673,7 +71681,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "RealBoss"
+                "Bossclone"
               ],
               "subInstructions": []
             },
@@ -71056,6 +72064,40 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "BossMain",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "BossHP",
+                "=",
+                "\"Boss Health: \" + ToString(Bossclone.Health::Health())"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -71247,14 +72289,6 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
           "events": []
         },
         {
@@ -71866,7 +72900,7 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "",
+          "name": "power ups",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -72072,14 +73106,6 @@
           "events": []
         },
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -72190,7 +73216,7 @@
               },
               "parameters": [
                 "BossMain",
-                "yes"
+                "no"
               ],
               "subInstructions": []
             }
@@ -72284,7 +73310,7 @@
               },
               "parameters": [
                 "BossMain",
-                "no"
+                "yes"
               ],
               "subInstructions": []
             }
@@ -72754,7 +73780,7 @@
               "parameters": [
                 "Score",
                 "+",
-                "2"
+                "200"
               ],
               "subInstructions": []
             },
@@ -72766,31 +73792,6 @@
               "parameters": [
                 "BossMain",
                 "\"Dead\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Montre"
-              },
-              "parameters": [
-                "RealBoss",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "TrueBossTalk",
-                "859",
-                "501",
-                ""
               ],
               "subInstructions": []
             },
@@ -72819,12 +73820,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "TextObject::String"
+                "value": "Scene"
               },
               "parameters": [
-                "BossHP",
-                "=",
-                "\"Boss Health: \" + ToString(RealBoss.Health::Health())"
+                "",
+                "\"Congrats\"",
+                ""
               ],
               "subInstructions": []
             }
@@ -73137,844 +74138,6 @@
           "creationTime": 0,
           "disabled": false,
           "folded": false,
-          "name": "RealBoss",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "RealBoss",
-                "direction",
-                "=",
-                "\"right\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "RealBoss",
-                "0",
-                "50",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "RealBoss",
-                "PlayerOrientationLeft",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "RealBoss",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "RealBoss",
-                "Player",
-                "60\n",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjetTxt"
-              },
-              "parameters": [
-                "RealBoss",
-                "direction",
-                "=",
-                "\"left\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "RealBoss",
-                "180",
-                "60",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "RealBoss",
-                "PlayerOrientationRight",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "RealBoss",
-                "no"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceVers"
-              },
-              "parameters": [
-                "RealBoss",
-                "Player",
-                "50",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Projectile",
-                "RealBoss",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "RealBoss",
-                "\"Hit\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "Projectile",
-                "\"Blast\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "RealBoss",
-                "Health",
-                "15",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "Projectile",
-                    "\"Blast\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
-                  },
-                  "parameters": [
-                    "Projectile"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Projectile",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Health::Health::IsJustDamaged"
-              },
-              "parameters": [
-                "RealBoss",
-                "Health",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "mixkit-scream-in-pain-22002.wav",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Health::Health::IsDead"
-              },
-              "parameters": [
-                "RealBoss",
-                "Health",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "10"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "RealBoss",
-                "\"Dead\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Arreter"
-              },
-              "parameters": [
-                "RealBoss"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
-                  },
-                  "parameters": [
-                    "RealBoss"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "RealBoss",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "HitBox",
-                "RealBoss",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "RealBoss",
-                "\"Attack1\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Player",
-                "RealBoss",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "False"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "-",
-                    "25"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "25",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    ">",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "-",
-                    "25"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "<",
-                    "15"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "RealBoss"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "RealBoss",
-                "\"walk\""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Attack2\"",
-                ">",
-                "5"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Attack2\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetAnimationName"
-              },
-              "parameters": [
-                "RealBoss",
-                "\"Attack2\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "RealBoss",
-                "=",
-                "Player.X() - 10",
-                "=",
-                "Player.Y() - 10"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Delete"
-              },
-              "parameters": [
-                "TrueBossTalk",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "True"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    ">",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "-",
-                    "30"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "<",
-                    "10"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Shield",
-                    "="
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Health::Health::Hit"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    "30",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "HP",
-                    "=",
-                    "Player.Health::Health()"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": false,
-          "folded": false,
           "name": "Walls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -74049,34 +74212,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "RealBoss",
-                "ENDOFWALL",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "RealBoss",
-                "ENDOFWALL2",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -74123,30 +74258,6 @@
               },
               "parameters": [
                 "Player",
-                "ENDOFWALL2",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "RealBoss",
-                "ENDOFWALL",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "RealBoss",
                 "ENDOFWALL2",
                 ""
               ],
@@ -74249,7 +74360,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3199999999999995,
+        "zoomFactor": 0.15999999999999945,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -74541,8 +74652,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Congrats",
+      "name": "Congrats",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
@@ -74561,14 +74672,325 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.4399999999999995,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1325,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject3",
+          "persistentUuid": "58abb465-55bb-4469-9541-eda442ddcee3",
+          "width": 3350,
+          "x": -488,
+          "y": -343,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FinalLvl",
+          "persistentUuid": "7ca01ad7-b55f-4b56-a8b5-7429fb41e13c",
+          "width": 0,
+          "x": 644,
+          "y": 565,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 840,
+          "layer": "",
+          "locked": false,
+          "name": "FinalLvl",
+          "persistentUuid": "3407fa8b-a9cf-47d8-9ddf-4c6229ef30b5",
+          "width": 3328,
+          "x": -460,
+          "y": -349,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1507,
+          "layer": "",
+          "locked": false,
+          "name": "Finallvl2",
+          "persistentUuid": "8832aded-7c12-495c-9de1-8f08cddf6c5f",
+          "width": 4043,
+          "x": -830,
+          "y": -228,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FinalVlfloor",
+          "persistentUuid": "6491b8d4-9996-4f35-8987-d0f38a32624a",
+          "width": 0,
+          "x": 501,
+          "y": 1192,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FinalVlfloor",
+          "persistentUuid": "83f29a2c-3db3-4ee0-8d09-f79089c49ae5",
+          "width": 0,
+          "x": 1697,
+          "y": 1815,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "FinalVlfloor",
+          "persistentUuid": "69b26e08-d6cd-4e9f-8006-7eced3330559",
+          "width": 0,
+          "x": 1581,
+          "y": 1708,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1264,
+          "layer": "",
+          "locked": false,
+          "name": "FinalVlfloor",
+          "persistentUuid": "261e0f3d-db0c-4237-8796-17680a7549c9",
+          "width": 3952,
+          "x": -814,
+          "y": -190,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1,
+          "layer": "",
+          "locked": false,
+          "name": "Congrats",
+          "persistentUuid": "19707ef1-87d7-41bc-a7e0-3140b3e48f31",
+          "width": 1662,
+          "x": 113,
+          "y": 552,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Exit",
+          "persistentUuid": "1f98be23-c44b-45c5-a07e-32da5ec76bec",
+          "width": 0,
+          "x": 980,
+          "y": 769,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "height": 32,
+          "name": "NewObject3",
+          "tags": "",
+          "texture": "Layer_0008_3-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 50,
+          "name": "FinalLvl",
+          "tags": "",
+          "texture": "Layer_0002_7-1-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 50,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Finallvl2",
+          "tags": "",
+          "texture": "Layer_0011_0.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "FinalVlfloor",
+          "tags": "",
+          "texture": "Layer_0001_8-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Congrats",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "You have completed the Game! Congratulations - I hope You Enjoyed The Adventure",
+          "font": "IMMORTAL.ttf",
+          "characterSize": 50,
+          "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Exit",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Exit Game",
+          "font": "IMMORTAL.ttf",
+          "characterSize": 35,
+          "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Exit",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Main Menu\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 0,
@@ -74590,6 +75012,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 19478520,
+          "ambientLightColorG": 6031344,
+          "ambientLightColorR": 20130712,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "UI",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
