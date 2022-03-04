@@ -18,6 +18,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "LightBringer",
+    "description": "",
     "author": "Edward A. Dixon",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -43,6 +44,7 @@
       "showProgressBar": true
     },
     "authorIds": [],
+    "playableDevices": [],
     "extensionProperties": [],
     "platforms": [
       {
@@ -28735,7 +28737,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21,
+        "zoomFactor": 0.11000000000000008,
         "windowMask": false
       },
       "objectsGroups": [
@@ -29648,7 +29650,7 @@
           "persistentUuid": "b69e5292-6587-4dcc-b86f-a1b0bfeba8b1",
           "width": 0,
           "x": 1877,
-          "y": 106,
+          "y": 144.5,
           "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
@@ -29848,15 +29850,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 22.5,
           "layer": "",
           "locked": false,
           "name": "HighSpikes",
           "persistentUuid": "077829fb-d8bd-4957-8c72-0829a8a6ab62",
-          "width": 0,
-          "x": 5134,
-          "y": 170,
+          "width": 51,
+          "x": 5140.90625,
+          "y": 173.875,
           "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
@@ -29864,48 +29866,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 22.5,
           "layer": "",
           "locked": false,
           "name": "HighSpikes",
           "persistentUuid": "ef1b5c0e-4c4f-48ec-b40f-015d0413a068",
-          "width": 0,
-          "x": 5770,
-          "y": 169,
+          "width": 51,
+          "x": 5768.90625,
+          "y": 172.875,
           "zOrder": 92,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "HighSpikes",
-          "persistentUuid": "24209ea7-8a6b-4903-b426-3987390e3062",
-          "width": 0,
-          "x": 6197,
-          "y": 169,
-          "zOrder": 93,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "HighSpikes",
-          "persistentUuid": "7b0056b1-e64c-49d0-bafc-4f162464bb71",
-          "width": 0,
-          "x": 7001,
-          "y": 171,
-          "zOrder": 94,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30130,6 +30100,38 @@
           "x": 3570,
           "y": 204,
           "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 22.5,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "c6001b9f-ee59-4280-8ac8-9ed0c3bd6494",
+          "width": 51,
+          "x": 6195.90625,
+          "y": 172.875,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 22.5,
+          "layer": "",
+          "locked": false,
+          "name": "HighSpikes",
+          "persistentUuid": "d8540b24-eb34-4f1a-a0b1-7e5e60860dc5",
+          "width": 51,
+          "x": 6993.90625,
+          "y": 172.375,
+          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -35568,6 +35570,42 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-scream-in-pain-2200.wav",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -35744,7 +35782,7 @@
               "parameters": [
                 "HP",
                 "=",
-                "\"Health: \" + ToString(Variable(HP))"
+                "\"Health: \" + ToString(Player.Health::Health())"
               ],
               "subInstructions": []
             }
@@ -37363,14 +37401,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -38560,6 +38590,20 @@
                 "Player",
                 "DemonBoss",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-scream-in-pain-2200.wav",
+                "",
+                "100",
+                "1"
               ],
               "subInstructions": []
             }
@@ -40235,7 +40279,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1699999999999999,
+        "zoomFactor": 0.41,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -40281,7 +40325,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1636,
+          "height": 1609,
           "layer": "",
           "locked": false,
           "name": "Level2GB",
@@ -41480,22 +41524,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 65,
-          "layer": "",
-          "locked": false,
-          "name": "Imp",
-          "persistentUuid": "c20c8b17-701c-4af3-8393-d5ce81b18f64",
-          "width": 78,
-          "x": 5963.10791015625,
-          "y": 461.49432373046875,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -41570,38 +41598,6 @@
           "x": 6699,
           "y": 362,
           "zOrder": 80,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 65,
-          "layer": "",
-          "locked": false,
-          "name": "Imp",
-          "persistentUuid": "6a54d2a7-fc10-4237-86ba-2f069586c32b",
-          "width": 78,
-          "x": 5178.10791015625,
-          "y": 443.49432373046875,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "right",
-          "persistentUuid": "e3f4b91e-a241-4df7-a6ad-d3fed4253391",
-          "width": 0,
-          "x": 5129,
-          "y": 410,
-          "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42240,6 +42236,21 @@
               "MaxHealth": 100,
               "IsJustDamaged": false,
               "CooldownActive": false
+            },
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": false
             },
             {
               "name": "PlatformerObject",
@@ -44660,16 +44671,6 @@
           ]
         },
         {
-          "name": "NewObject2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
           "name": "NextLevel",
           "tags": "",
           "type": "Sprite",
@@ -45479,16 +45480,6 @@
           ]
         },
         {
-          "name": "NewObject3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "BossSpeech",
@@ -45870,7 +45861,7 @@
               "parameters": [
                 "HP",
                 "=",
-                "\"Health: \" + ToString(Variable(HP))"
+                "\"Health: \" + ToString(Player.Health::Health())"
               ],
               "subInstructions": []
             },
@@ -46156,6 +46147,42 @@
                 "Player.X() + 25",
                 "=",
                 "Player.Y() + 15"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-scream-in-pain-2200.wav",
+                "",
+                "100",
+                "1"
               ],
               "subInstructions": []
             }
@@ -48293,6 +48320,111 @@
             {
               "type": {
                 "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Boss1",
+                "200",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Boss1",
+                "Pathfinding",
+                "",
+                "Player.X()",
+                "Player.Y()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "Boss1",
+                "Player",
+                "90",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Boss1",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "EstTourne"
+              },
+              "parameters": [
+                "Boss1",
+                "Player",
+                "90",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Boss1",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -48359,17 +48491,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "Projectile",
-                    "\"Blast\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "AnimationEnded"
                   },
                   "parameters": [
@@ -48394,14 +48515,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         },
         {
           "disabled": false,
@@ -48490,89 +48603,14 @@
                 "Boss1"
               ],
               "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "AnimationEnded"
-                  },
-                  "parameters": [
-                    "Boss1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": [],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Boss1",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
-                "BossCircle",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceVersPos"
+                "value": "Delete"
               },
               "parameters": [
                 "Boss1",
-                "Player.X()",
-                "Player.Y()",
-                "60",
                 ""
               ],
               "subInstructions": []
@@ -51003,7 +51041,7 @@
                 "",
                 "\"BossTimer\"",
                 ">",
-                "5"
+                "4"
               ],
               "subInstructions": []
             }
@@ -51449,7 +51487,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24000000000000007,
+        "zoomFactor": 0.48000000000000026,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -53037,8 +53075,8 @@
           "name": "undergroundmonster",
           "persistentUuid": "2c928e1d-28f0-4c1c-bfb3-cb0ab6b03346",
           "width": 123.5,
-          "x": 5145.75,
-          "y": 441.0340881347656,
+          "x": 5033.75,
+          "y": 436.5340881347656,
           "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
@@ -55943,9 +55981,9 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "HP",
+                "Shield",
                 "=",
-                "\"Health: \" + ToString(Variable(HP))"
+                "\"Shield Capacity: \" + ToString(Variable(Shield))"
               ],
               "subInstructions": []
             },
@@ -55955,9 +55993,9 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "Shield",
+                "HP",
                 "=",
-                "\"Shield Capacity: \" + ToString(Variable(Shield))"
+                "\"Health: \" + ToString(Player.Health::Health())"
               ],
               "subInstructions": []
             }
@@ -57999,20 +58037,6 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "mixkit-scream-in-pain-2200.wav",
-                "",
-                "100",
-                "1"
-              ],
-              "subInstructions": []
             }
           ],
           "events": [
@@ -58862,20 +58886,6 @@
                 "Player",
                 "undergroundmonster",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "mixkit-scream-in-pain-2200.wav",
-                "",
-                "100",
-                "1"
               ],
               "subInstructions": []
             }
@@ -60423,6 +60433,42 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-scream-in-pain-2200.wav",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -61101,7 +61147,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15000000000000022,
+        "zoomFactor": 0.13000000000000023,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -61121,13 +61167,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1553,
+          "height": 1583,
           "layer": "",
           "locked": false,
           "name": "Background4",
           "persistentUuid": "7ca8bff5-302a-4063-bb6a-39a61b97f563",
-          "width": 9858,
-          "x": -1925,
+          "width": 9843,
+          "x": -1910,
           "y": -111,
           "zOrder": -1,
           "numberProperties": [],
@@ -64390,14 +64436,6 @@
           "events": []
         },
         {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -65113,6 +65151,42 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-scream-in-pain-2200.wav",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -65778,7 +65852,7 @@
               "parameters": [
                 "HP",
                 "=",
-                "100"
+                "Player.Health::Health()"
               ],
               "subInstructions": []
             },
@@ -65987,7 +66061,7 @@
               "parameters": [
                 "HP",
                 "=",
-                "\"Health: \" + ToString(Variable(HP))"
+                "\"Health: \" + ToString(Player.Health::Health())"
               ],
               "subInstructions": []
             },
@@ -66305,20 +66379,6 @@
                 "Player",
                 "Bat",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "mixkit-scream-in-pain-2200.wav",
-                "",
-                "100",
-                "1"
               ],
               "subInstructions": []
             }
@@ -68391,20 +68451,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "mixkit-scream-in-pain-22002.wav",
-                    "",
-                    "100",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "Health::Health::Hit"
                   },
                   "parameters": [
@@ -68457,20 +68503,6 @@
                     "Shield",
                     "-",
                     "10"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "mixkit-scream-in-pain-22002.wav",
-                    "",
-                    "100",
-                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -68618,20 +68650,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "mixkit-scream-in-pain-22002.wav",
-                        "",
-                        "100",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "Health::Health::Hit"
                       },
                       "parameters": [
@@ -68684,20 +68702,6 @@
                         "Shield",
                         "-",
                         "10"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "mixkit-scream-in-pain-22002.wav",
-                        "",
-                        "100",
-                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -68944,22 +68948,6 @@
               "subInstructions": []
             }
           ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
           "events": []
         }
       ],
@@ -69368,7 +69356,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35999999999999954,
+        "zoomFactor": 0.11999999999999951,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -72894,6 +72882,42 @@
           "events": []
         },
         {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Health::Health::IsJustDamaged"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "mixkit-scream-in-pain-2200.wav",
+                "",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -74884,10 +74908,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -75066,6 +75090,7 @@
   "eventsFunctionsExtensions": [
     {
       "author": "D8H",
+      "category": "",
       "description": "It can be helpful to draw:\n* fog of wars\n* liquids effects (water, blobs, lava)\n* dynamically paint territories\n* other effects based on \"contour lines\"",
       "extensionNamespace": "",
       "fullName": "Marching Squares (experimental)",
@@ -77725,6 +77750,7 @@
     },
     {
       "author": "@4ian",
+      "category": "",
       "description": "Make the object flash (blink) for a period of time, so that it is alternately visible and invisible.\nAfter adding this to an object, you have to **trigger the effect** by using the **Flash action**.",
       "extensionNamespace": "",
       "fullName": "Flash (blink)",
@@ -78362,6 +78388,7 @@
     },
     {
       "author": "@4ian",
+      "category": "",
       "description": "Add actions and conditions to manage the life of the object. Object can get damages, lose some health and you can check with a condition if it's dead.",
       "extensionNamespace": "",
       "fullName": "Health (life points and damages for objects)",
@@ -79064,6 +79091,7 @@
     },
     {
       "author": "@4ian",
+      "category": "",
       "description": "Move the object linearly, according to the speed configured on X and Y axis. Useful for simple enemies, bullets or objects following a straight line on the screen.",
       "extensionNamespace": "",
       "fullName": "Linear Movement",
@@ -79174,6 +79202,7 @@
     },
     {
       "author": "@4ian",
+      "category": "",
       "description": "Make the object go on the left, then when some distance is reached, flip and go back to the right. **Make sure** that your object has **two animations called \"GoLeft\" and \"TurnLeft\"**.",
       "extensionNamespace": "",
       "fullName": "Animated Back and Forth Movement",
@@ -79595,6 +79624,7 @@
     },
     {
       "author": "@4ian",
+      "category": "",
       "description": "Allow the object to fire bullets, with customizable speed, angle and fire rate.",
       "extensionNamespace": "",
       "fullName": "Fire bullets",
